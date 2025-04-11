@@ -1,0 +1,15 @@
+/* CSS personnalisé pour les boutons radio */
+.radio-button {
+    width: 32px;  /* Taille personnalisée */
+    height: 32px; /* Taille personnalisée */
+    accent-color: #bf198c; /* Couleur personnalisée pour l'état activé */
+}
+
+.radio-button:checked {
+    border: 2px solid #bf198c;  /* Bord personnalisé lors de l'activation */
+}
+
+.radio-button:hover {
+    transform: scale(1.2); /* Agrandir légèrement le bouton au survol */
+    transition: all 0.2s ease; /* Transition douce */
+}

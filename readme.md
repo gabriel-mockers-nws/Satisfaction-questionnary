@@ -1,4 +1,4 @@
-<strong> Projet de stage Manoire d'Argueil </strong>
+<strong> Projet de stage Manoir d'Argueil </strong>
 
 Ce projet vise à la digitalisétion de formulaires de satisfaction clients pour ODCVL.
 
