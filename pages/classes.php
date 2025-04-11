@@ -45,24 +45,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="suivis-admin" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Comment évaluez-vous le suivis administratif <br> du séjour avec le siège ?</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -90,12 +90,12 @@ require_once "../elements/header.php";
         <h2 class="text-3xl font-bold text-center ">Le transport</h2>
         <div>
             <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Votre transport a-t-il été organisé par Odcvl ?</label>
-            <label class="inline-flex items-center space-x-2 ">
-                <input type="radio" name="transportOrganise" value="oui">
+            <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="transportOrganise" value="oui" class="radio-button">
                 <span>Oui</span>
             </label>
             <label class="inline-flex items-center space-x-2 ml-4">
-                <input type="radio" name="transportOrganise" value="non">
+                <input type="radio" name="transportOrganise" value="non" class="radio-button">
                 <span>Non</span>
             </label>
         </div>
@@ -120,24 +120,24 @@ require_once "../elements/header.php";
             <label  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 font-bold"">Comment évaluez-vous l'accueil, <br> la disponibilité  et l'écoute de :</label>
             <label for="responsable-de-maison" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Notre responsable de maison</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-2" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-2" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-2" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-2" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-2" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-2" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-2" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-2" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-2" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-2" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -151,24 +151,24 @@ require_once "../elements/header.php";
 
             <label for="agent-polyvalents" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Nos agents polyvalents / cuisiniers</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-3" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-3" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-3" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-3" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-3" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-3" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-3" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-3" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-3" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-3" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -184,24 +184,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 font-bold">Comment évaluez-vous la qualité <br> de notre maison tous séjour ?</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-4" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-4" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-4" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-4" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-4" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-4" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-4" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-4" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-4" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-4" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -209,24 +209,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="propreté-générale" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La propreté générale</label>
                 <div class="flex justify-center gap-4 my-4">
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-5" value="1">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-5" value="1" class="radio-button">
                         <span>1</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-5" value="2">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-5" value="2" class="radio-button">
                         <span>2</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-5" value="3">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-5" value="3" class="radio-button">
                         <span>3</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-5" value="4">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-5" value="4" class="radio-button">
                         <span>4</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-5" value="5">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-5" value="5" class="radio-button">
                         <span>5</span>
                     </label>
                 </div>
@@ -242,24 +242,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="chambres" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les chambres</label>
                 <div class="flex justify-center gap-4 my-4">
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-6" value="1">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-6" value="1" class="radio-button">
                         <span>1</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-6" value="2">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-6" value="2" class="radio-button">
                         <span>2</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-6" value="3">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-6" value="3" class="radio-button">
                         <span>3</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-6" value="4">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-6" value="4" class="radio-button">
                         <span>4</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-6" value="5">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-6" value="5" class="radio-button">
                         <span>5</span>
                     </label>
                 </div>
@@ -275,24 +275,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="rangements" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les rangements</label>
                 <div class="flex justify-center gap-4 my-4">
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-7" value="1">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-7" value="1" class="radio-button">
                         <span>1</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-7" value="2">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-7" value="2" class="radio-button">
                         <span>2</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-7" value="3">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-7" value="3" class="radio-button">
                         <span>3</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-7" value="4">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-7" value="4" class="radio-button">
                         <span>4</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-7" value="5">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-7" value="5" class="radio-button">
                         <span>5</span>
                     </label>
                 </div>
@@ -308,24 +308,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="sanitaires" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les sanitaires</label>
                 <div class="flex justify-center gap-4 my-4">
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-8" value="1">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-8" value="1" class="radio-button">
                         <span>1</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-8" value="2">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-8" value="2" class="radio-button">
                         <span>2</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-8" value="3">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-8" value="3" class="radio-button">
                         <span>3</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-8" value="4">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-8" value="4" class="radio-button">
                         <span>4</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-8" value="5">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-8" value="5" class="radio-button">
                         <span>5</span>
                     </label>
                 </div>
@@ -341,24 +341,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="chauffage" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Le chauffage</label>
                 <div class="flex justify-center gap-4 my-4">
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-9" value="1">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-9" value="1" class="radio-button">
                         <span>1</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-9" value="2">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-9" value="2" class="radio-button">
                         <span>2</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-9" value="3">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-9" value="3" class="radio-button">
                         <span>3</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-9" value="4">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-9" value="4" class="radio-button">
                         <span>4</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-9" value="5">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-9" value="5" class="radio-button">
                         <span>5</span>
                     </label>
                 </div>
@@ -374,24 +374,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="salles-travail" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les salles de travail</label>
                 <div class="flex justify-center gap-4 my-4">
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-10" value="1">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-10" value="1" class="radio-button">
                         <span>1</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-10" value="2">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-10" value="2" class="radio-button">
                         <span>2</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-10" value="3">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-10" value="3" class="radio-button">
                         <span>3</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-10" value="4">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-10" value="4" class="radio-button">
                         <span>4</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-10" value="5">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-10" value="5" class="radio-button">
                         <span>5</span>
                     </label>
                 </div>
@@ -407,24 +407,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="salle-manger" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La salle à manger</label>
                 <div class="flex justify-center gap-4 my-4">
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-11" value="1">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-11" value="1" class="radio-button">
                         <span>1</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-11" value="2">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-11" value="2" class="radio-button">
                         <span>2</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-11" value="3">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-11" value="3" class="radio-button">
                         <span>3</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-11" value="4">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-11" value="4" class="radio-button">
                         <span>4</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-11" value="5">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-11" value="5" class="radio-button">
                         <span>5</span>
                     </label>
                 </div>
@@ -440,24 +440,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="exterieurs" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les extérieurs</label>
                 <div class="flex justify-center gap-4 my-4">
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-12" value="1">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-12" value="1" class="radio-button">
                         <span>1</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-12" value="2">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-12" value="2" class="radio-button">
                         <span>2</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-12" value="3">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-12" value="3" class="radio-button">
                         <span>3</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-12" value="4">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-12" value="4" class="radio-button">
                         <span>4</span>
                     </label>
-                    <label class="inline-flex items-center space-x-1">
-                        <input type="radio" name="note-12" value="5">
+                    <label class="inline-flex items-center space-x-2 text-xl">
+                        <input type="radio" name="note-12" value="5" class="radio-button">
                         <span>5</span>
                     </label>
                 </div>
@@ -489,24 +489,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="qual-plat" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez la qualité des plats (midi et soir)</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-13" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-13" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-13" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-13" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-13" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-13" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-13" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-13" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-13" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-13" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -522,24 +522,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="qte" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez la quantité</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-14" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-14" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-14" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-14" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-14" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-14" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-14" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-14" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-14" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-14" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -555,24 +555,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="petit-déjeuner" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez les petit-déjeuners</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-15" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-15" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-15" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-15" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-15" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-15" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-15" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-15" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-15" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-15" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -588,24 +588,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="gouter" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez les goûters</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-16" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-16" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-16" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-16" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-16" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-16" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-16" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-16" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-16" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-16" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -621,24 +621,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="variete" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La variété des menus</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-17" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-17" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-17" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-17" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-17" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-17" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-17" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-17" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-17" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-17" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -654,24 +654,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="regimes-alimentaire" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La prise en compte des régimes alimentaires <br> vous a-t-elle convenue ?</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-18" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-18" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-18" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-18" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-18" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-18" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-18" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-18" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-18" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-18" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -687,24 +687,24 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="presentation-et-service" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">la présentation et le service <br> vous ont-ils convenu ?</label>
             <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-19" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-19" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-19" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-19" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-19" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-19" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-19" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-19" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-19" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-19" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -773,24 +773,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="lever-et-ptidej">Le lever et le petit déjeuner</label>
                 <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-20" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-20" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-20" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-20" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-20" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-20" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-20" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-20" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-20" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-20" value="5" class="radio-button">
                     <span>5</span>
                 </label>
                 </div>
@@ -806,24 +806,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="gestion-repas">La gestion des repas</label>
                 <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-21" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-21" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-21" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-21" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-21" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-21" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-21" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-21" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-21" value="5" class="radio-button">
                     <span>5</span>
                 </label>
                 </div>
@@ -839,24 +839,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="temps-libre-calme">Les temps libres/calmes</label>
                 <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-22" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-22" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-22" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-22" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-22" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-22" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-22" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-22" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-22" value="5" class="radio-button">
                     <span>5</span>
                 </label>
                 </div>
@@ -872,24 +872,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="douches">La gestion du temps des douches</label>
                 <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-23" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-23" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-23" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-23" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-23" value="5" class="radio-button">
                     <span>5</span>
                 </label>
                 </div>
@@ -905,24 +905,24 @@ require_once "../elements/header.php";
             <div class="mb-8">
                 <label for="le-coucher">Le coucher</label>
                 <div class="flex justify-center gap-4 my-4">
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-23" value="1">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-24" value="1" class="radio-button">
                     <span>1</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-23" value="2">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-24" value="2" class="radio-button">
                     <span>2</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-23" value="3">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-24" value="3" class="radio-button">
                     <span>3</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-23" value="4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-24" value="4" class="radio-button">
                     <span>4</span>
                 </label>
-                <label class="inline-flex items-center space-x-1">
-                    <input type="radio" name="note-23" value="5">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-24" value="5" class="radio-button">
                     <span>5</span>
                 </label>
                 </div>
