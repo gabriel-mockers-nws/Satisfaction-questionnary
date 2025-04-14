@@ -473,12 +473,12 @@ require_once "../elements/header.php";
 
         <div>
             <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous bénéficié de tous les équipements <br> dont vous aviez besoin ?</label>
-            <label class="inline-flex items-center space-x-2 ">
-                <input type="radio" name="equipements" value="oui">
+            <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="equipements" value="oui" class="radio-button">
                 <span>Oui</span>
             </label>
-            <label class="inline-flex items-center space-x-2 ml-4">
-                <input type="radio" name="equipements" value="non">
+            <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="equipements" value="non" class="radio-button">
                 <span>Non</span>
             </label>
         </div>
@@ -934,10 +934,37 @@ require_once "../elements/header.php";
                 rows="5"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>  
             </div>
+        </div>
+
+        <div>
+        <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold"> Avez-vous bénéficié d'outils pédagogique durant la vie quotidienne ?</label>
+        <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="outils-pedago" value="oui" class="radio-button">
+                <span>Oui</span>
+            </label>
+            <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="outils-pedago" value="non" class="radio-button">
+                <span>Non</span>
+            </label>
+        <label for="remarque-vie-quot" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold"> Avez-vous des remarques à nous apporter ?</label>
+        <textarea
+            name="Remarque-1"
+            id="remarque-vie-quot"
+            placeholder=" Entrez vos remarques ici"
+            cols="45"
+            rows="5"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+        </div>
+    </div>
+
+    <div class="mx-8 my-12 justify-items-center text-center">
+        <h2 class="text-3xl font-bold ">Après votre séjour</h2>
+        <div>
 
         </div>
 
     </div>
+    
 </form>
 
 <?php require "../elements/footer.php" ?> 
