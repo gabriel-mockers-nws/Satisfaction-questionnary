@@ -768,7 +768,7 @@ require_once "../elements/header.php";
         </div>
 
         <div class="mx-8 my-12 justify-items-center text-center">
-            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Le vivre ensemble à Odcvl <br> et la mise en animation de la vie quotidienne <br> est un axe important du projet Odcvl <br> Comment évaluez-vous l'organisation de ces temps ? :  </label>
+            <h3 class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Le vivre ensemble à Odcvl <br> et la mise en animation de la vie quotidienne <br> est un axe important du projet Odcvl <br> Comment évaluez-vous l'organisation de ces temps ? :  </h3>
 
             <div class="mb-8">
                 <label for="lever-et-ptidej">Le lever et le petit déjeuner</label>
@@ -955,15 +955,153 @@ require_once "../elements/header.php";
             rows="5"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
+        <div class="mb-8">
+            <h3 class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Comment évaluez-vous  de : </h3>
+            <div>
+            <h4 class="block text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">L'acceuil et la pédagogie de:</h4>
+                <div>
+                    <label for="adjoint"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
+                    <textarea 
+                        name="remarque" 
+                        id="adjoint"
+                        placeholder=" Entrez vos remarques ici"
+                        cols="45"
+                        rows="5"
+                        class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+                </div>
+
+                <div>
+                    <label for="equipe"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
+                    <textarea 
+                        name="remarque" 
+                        id="equipe"
+                        placeholder=" Entrez vos remarques ici"
+                        cols="45"
+                        rows="5"
+                        class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+                </div>
+
+                <div>
+                    <label for="inter-ext"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
+                    <textarea 
+                        name="remarque" 
+                        id="inter-ext"
+                        placeholder=" Entrez vos remarques ici"
+                        cols="45"
+                        rows="5"
+                        class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+                </div>
+            </div>
+            <div>
+                <h4 class="block text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">La disponibilité et l'écoute de:</h4>
+                <div>
+                    <label for="adjoint"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
+                    <textarea 
+                        name="remarque" 
+                        id="adjoint"
+                        placeholder=" Entrez vos remarques ici"
+                        cols="45"
+                        rows="5"
+                        class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+                </div>
+
+                <div>
+                    <label for="equipe"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
+                    <textarea 
+                        name="remarque" 
+                        id="equipe"
+                        placeholder=" Entrez vos remarques ici"
+                        cols="45"
+                        rows="5"
+                        class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+                </div>
+
+                <div>
+                    <label for="inter-ext"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
+                    <textarea 
+                        name="remarque" 
+                        id="inter-ext"
+                        placeholder=" Entrez vos remarques ici"
+                        cols="45"
+                        rows="5"
+                        class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+                </div>
+            </div>
+
+        </div>
     </div>
 
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold ">Après votre séjour</h2>
-        <div>
-
+        <div class="mb-8">
+            <label for="sat-glob" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Êtes vous globalement satisfait de votre séjour ?</label>
+            <div class="flex justify-center gap-4 my-4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg" value="1" class="radio-button">
+                    <span>1</span>
+                </label>
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg" value="2" class="radio-button">
+                    <span>2</span>
+                </label>
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg" value="3" class="radio-button">
+                    <span>3</span>
+                </label>
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg" value="4" class="radio-button">
+                    <span>4</span>
+                </label>
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg" value="5" class="radio-button">
+                    <span>5</span>
+                </label>
+            </div>
+            <textarea
+            name="Remarque-1"
+            id="sat-glob"
+            placeholder=" Entrez votre avis ici"
+            cols="45"
+            rows="5"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
+    </div>
+
+        <div class="mb-8">
+            <label for="attentes-sejour" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Au regard de vos orientations pédagogiques, <br> ce séjour à t'il répondu à vos attentes ? </label>
+            <div class="flex justify-center gap-4 my-4">
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg-1" value="1" class="radio-button">
+                    <span>1</span>
+                </label>
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg-1" value="2" class="radio-button">
+                    <span>2</span>
+                </label>
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg-1" value="3" class="radio-button">
+                    <span>3</span>
+                </label>
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg-1" value="4" class="radio-button">
+                    <span>4</span>
+                </label>
+                <label class="inline-flex items-center space-x-2 text-xl">
+                    <input type="radio" name="note-satg-1" value="5" class="radio-button">
+                    <span>5</span>
+                </label>
+            </div>
+            <textarea
+            name="Remarque-1"
+            id="attentes-sejour"
+            placeholder=" Entrez votre avis ici"
+            cols="45"
+            rows="5"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+            </div>
 
     </div>
+</div>
     
 </form>
 
