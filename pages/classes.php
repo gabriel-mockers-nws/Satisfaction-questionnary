@@ -1124,8 +1124,33 @@ require_once "../elements/header.php";
             </label>
         </div>
         <div id="projet-maison" class="mt-6 space-y-4"></div>
+        
+        <div>
+            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous déjà une idées d'une thématique ?</label>
+            <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="thematique" value="oui" class="radio-button">
+                <span>Oui</span>
+            </label>
+            <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="thematique" value="non" class="radio-button">
+                <span>Non</span>
+            </label>
+            <div id="idée" class="mt-6 space-y-4"></div>
+        </div>
 
+        <div class="mb-8">
+            <label for="date" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">
+                Avez-vous une idée de date ?
+            </label>
+            <input
+                id="date"
+                type="date"
+                value="2017-06-01"
+                class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md px-4 py-2"/>
+        </div>
     </div>
+
+
     
 </form>
 
@@ -1133,3 +1158,4 @@ require_once "../elements/header.php";
 <script src="/js/transport.js"></script>
 <script src="/JS/equipements.js"></script>
 <script src="/JS/projet-futur.js"></script>
+<script src="/JS/thematique.js"></script>
