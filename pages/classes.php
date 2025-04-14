@@ -483,7 +483,7 @@ require_once "../elements/header.php";
             </label>
         </div>
         <div id="manquant" class="mt-6 space-y-4"></div>
-    </div>
+        </div>
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold  text-center">La restauration</h2>
         <div class="mb-8">
@@ -1065,7 +1065,7 @@ require_once "../elements/header.php";
             rows="5"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
-    </div>
+
 
         <div class="mb-8">
             <label for="attentes-sejour" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Au regard de vos orientations pédagogiques, <br> ce séjour à t'il répondu à vos attentes ? </label>
@@ -1098,13 +1098,38 @@ require_once "../elements/header.php";
             cols="45"
             rows="5"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
-            </div>
+        </div>
+
+        <div class="mb-8">
+            <label for="exploit" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Comment allez vous exploiter le séjour <br> à votre retour à l'école ? </label>
+            <textarea
+            name="Remarque-1"
+            id="exploit"
+            placeholder=" Entrez votre avis ici"
+            cols="45"
+            rows="5"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+        </div>
+
+        
+        <div>
+            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Envisagez-vous un projet futur à Odcvl ?</label>
+            <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="projet-futur" value="oui" class="radio-button">
+                <span>Oui</span>
+            </label>
+            <label class="inline-flex items-center space-x-2 text-xl">
+                <input type="radio" name="projet-futur" value="non" class="radio-button">
+                <span>Non</span>
+            </label>
+        </div>
+        <div id="projet-maison" class="mt-6 space-y-4"></div>
 
     </div>
-</div>
     
 </form>
 
 <?php require "../elements/footer.php" ?> 
 <script src="/js/transport.js"></script>
 <script src="/JS/equipements.js"></script>
+<script src="/JS/projet-futur.js"></script>
