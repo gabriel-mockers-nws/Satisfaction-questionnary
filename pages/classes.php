@@ -1149,7 +1149,9 @@ require_once "../elements/header.php";
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md px-4 py-2"/>
         </div>
     </div>
-    
+    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
+        <a href="#">Envoyer le formulaire</a>
+    </button>
 </form>
 
 <?php require "../elements/footer.php" ?> 
