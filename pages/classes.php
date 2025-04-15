@@ -9,7 +9,7 @@ require_once "../elements/header.php";
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold ">Administratif</h2>
         <div class="mb-8">
-            <label for="construction-projet" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">
+            <label for="construction-projet" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">
                 Comment évaluez-vous la construction <br> de votre projet avec le siège ?
             </label>
             <div class="flex justify-center gap-4 my-4">
@@ -39,11 +39,11 @@ require_once "../elements/header.php";
             id="construction-projet"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
         <div class="mb-8">
-            <label for="suivis-admin" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Comment évaluez-vous le suivis administratif <br> du séjour avec le siège ?</label>
+            <label for="suivis-admin" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Comment évaluez-vous le suivis administratif <br> du séjour avec le siège ?</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note" value="1" class="radio-button">
@@ -71,17 +71,17 @@ require_once "../elements/header.php";
             id="suivis-admin"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
         <div class="mb-8">
-            <label for="satisfaction-orga" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous été satidfait de l'organisation <br> du séjour avec notre équipe de maison ?</label>
+            <label for="satisfaction-orga" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous été satidfait de l'organisation <br> du séjour avec notre équipe de maison ?</label>
             <textarea
             name="Remarque-1"
             id="satisfaction-orga"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
     </div>
@@ -89,7 +89,7 @@ require_once "../elements/header.php";
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold text-center ">Le transport</h2>
         <div>
-            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Votre transport a-t-il été organisé par Odcvl ?</label>
+            <label class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Votre transport a-t-il été organisé par Odcvl ?</label>
             <label class="inline-flex items-center space-x-2 text-xl">
                 <input type="radio" name="transportOrganise" value="oui" class="radio-button">
                 <span>Oui</span>
@@ -106,19 +106,19 @@ require_once "../elements/header.php";
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold  text-center">Notre maison tous séjour</h2>
         <div class="mb-8">
-            <label for="premier-ressenti" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Quel fut votre premier ressenti  lors de votre <br> arrivée dans notre maison tous séjours ?</label>
+            <label for="premier-ressenti" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Quel fut votre premier ressenti  lors de votre <br> arrivée dans notre maison tous séjours ?</label>
             <textarea
             name="Remarque-1"
             id="premier-ressenti"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
             <label  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 font-bold"">Comment évaluez-vous l'accueil, <br> la disponibilité  et l'écoute de :</label>
-            <label for="responsable-de-maison" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Notre responsable de maison</label>
+            <label for="responsable-de-maison" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Notre responsable de maison</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-2" value="1" class="radio-button">
@@ -146,10 +146,10 @@ require_once "../elements/header.php";
             id="responsable-de-maison"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
 
-            <label for="agent-polyvalents" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Nos agents polyvalents / cuisiniers</label>
+            <label for="agent-polyvalents" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Nos agents polyvalents / cuisiniers</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-3" value="1" class="radio-button">
@@ -177,7 +177,7 @@ require_once "../elements/header.php";
             id="agent-polyvalents"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
         
@@ -207,7 +207,7 @@ require_once "../elements/header.php";
             </div>
 
             <div class="mb-8">
-                <label for="propreté-générale" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La propreté générale</label>
+                <label for="propreté-générale" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La propreté générale</label>
                 <div class="flex justify-center gap-4 my-4">
                     <label class="inline-flex items-center space-x-2 text-xl">
                         <input type="radio" name="note-5" value="1" class="radio-button">
@@ -235,12 +235,12 @@ require_once "../elements/header.php";
                 id="propreté-générale"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
             </div>
             
             <div class="mb-8">
-                <label for="chambres" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les chambres</label>
+                <label for="chambres" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les chambres</label>
                 <div class="flex justify-center gap-4 my-4">
                     <label class="inline-flex items-center space-x-2 text-xl">
                         <input type="radio" name="note-6" value="1" class="radio-button">
@@ -268,12 +268,12 @@ require_once "../elements/header.php";
                 id="chambres"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
             </div>
 
             <div class="mb-8">
-                <label for="rangements" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les rangements</label>
+                <label for="rangements" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les rangements</label>
                 <div class="flex justify-center gap-4 my-4">
                     <label class="inline-flex items-center space-x-2 text-xl">
                         <input type="radio" name="note-7" value="1" class="radio-button">
@@ -301,12 +301,12 @@ require_once "../elements/header.php";
                 id="rangements"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
             </div>
 
             <div class="mb-8">
-                <label for="sanitaires" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les sanitaires</label>
+                <label for="sanitaires" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les sanitaires</label>
                 <div class="flex justify-center gap-4 my-4">
                     <label class="inline-flex items-center space-x-2 text-xl">
                         <input type="radio" name="note-8" value="1" class="radio-button">
@@ -334,12 +334,12 @@ require_once "../elements/header.php";
                 id="sanitaires"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
             </div>
 
             <div class="mb-8">
-                <label for="chauffage" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Le chauffage</label>
+                <label for="chauffage" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Le chauffage</label>
                 <div class="flex justify-center gap-4 my-4">
                     <label class="inline-flex items-center space-x-2 text-xl">
                         <input type="radio" name="note-9" value="1" class="radio-button">
@@ -367,12 +367,12 @@ require_once "../elements/header.php";
                 id="chauffage"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
             </div>
 
             <div class="mb-8">
-                <label for="salles-travail" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les salles de travail</label>
+                <label for="salles-travail" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les salles de travail</label>
                 <div class="flex justify-center gap-4 my-4">
                     <label class="inline-flex items-center space-x-2 text-xl">
                         <input type="radio" name="note-10" value="1" class="radio-button">
@@ -400,12 +400,12 @@ require_once "../elements/header.php";
                 id="salles-travail"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
             </div>
 
             <div class="mb-8">
-                <label for="salle-manger" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La salle à manger</label>
+                <label for="salle-manger" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La salle à manger</label>
                 <div class="flex justify-center gap-4 my-4">
                     <label class="inline-flex items-center space-x-2 text-xl">
                         <input type="radio" name="note-11" value="1" class="radio-button">
@@ -433,12 +433,12 @@ require_once "../elements/header.php";
                 id="salle-manger"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
             </div>
 
             <div class="mb-8">
-                <label for="exterieurs" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les extérieurs</label>
+                <label for="exterieurs" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Les extérieurs</label>
                 <div class="flex justify-center gap-4 my-4">
                     <label class="inline-flex items-center space-x-2 text-xl">
                         <input type="radio" name="note-12" value="1" class="radio-button">
@@ -466,13 +466,13 @@ require_once "../elements/header.php";
                 id="exterieurs"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
             </div>
         </div>
 
         <div>
-            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous bénéficié de tous les équipements <br> dont vous aviez besoin ?</label>
+            <label class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous bénéficié de tous les équipements <br> dont vous aviez besoin ?</label>
             <label class="inline-flex items-center space-x-2 text-xl">
                 <input type="radio" name="equipements" value="oui" class="radio-button">
                 <span>Oui</span>
@@ -487,7 +487,7 @@ require_once "../elements/header.php";
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold  text-center">La restauration</h2>
         <div class="mb-8">
-            <label for="qual-plat" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez la qualité des plats (midi et soir)</label>
+            <label for="qual-plat" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez la qualité des plats (midi et soir)</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-13" value="1" class="radio-button">
@@ -515,12 +515,12 @@ require_once "../elements/header.php";
             id="qual-plat"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="qte" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez la quantité</label>
+            <label for="qte" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez la quantité</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-14" value="1" class="radio-button">
@@ -548,12 +548,12 @@ require_once "../elements/header.php";
             id="qte"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="petit-déjeuner" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez les petit-déjeuners</label>
+            <label for="petit-déjeuner" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez les petit-déjeuners</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-15" value="1" class="radio-button">
@@ -581,12 +581,12 @@ require_once "../elements/header.php";
             id="petit-dejeuner"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="gouter" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez les goûters</label>
+            <label for="gouter" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Notez les goûters</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-16" value="1" class="radio-button">
@@ -614,12 +614,12 @@ require_once "../elements/header.php";
             id="gouter"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="variete" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La variété des menus</label>
+            <label for="variete" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La variété des menus</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-17" value="1" class="radio-button">
@@ -647,12 +647,12 @@ require_once "../elements/header.php";
             id="variete"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="regimes-alimentaire" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La prise en compte des régimes alimentaires <br> vous a-t-elle convenue ?</label>
+            <label for="regimes-alimentaire" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">La prise en compte des régimes alimentaires <br> vous a-t-elle convenue ?</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-18" value="1" class="radio-button">
@@ -680,12 +680,12 @@ require_once "../elements/header.php";
             id="regimes-alimentaire"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="presentation-et-service" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">la présentation et le service <br> vous ont-ils convenu ?</label>
+            <label for="presentation-et-service" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">la présentation et le service <br> vous ont-ils convenu ?</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-19" value="1" class="radio-button">
@@ -713,7 +713,7 @@ require_once "../elements/header.php";
             id="presentation-et-service"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
     </div>
@@ -721,40 +721,40 @@ require_once "../elements/header.php";
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold ">Mise en vie de votre projet</h2>
         <div class="mb-8">
-            <label for="rythme" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu'avez-vous pensez du rythme <br> de votre séjour ?</label>
+            <label for="rythme" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu'avez-vous pensez du rythme <br> de votre séjour ?</label>
             <textarea
             name="Remarque-1"
             id="rythme"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="thematique" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu’avez-vous pensez de la thématique <br> de votre projet ?</label>
+            <label for="thematique" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu’avez-vous pensez de la thématique <br> de votre projet ?</label>
             <textarea
             name="Remarque-1"
             id="thematique"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="region" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu’avez-vous pensez de la région ?</label>
+            <label for="region" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu’avez-vous pensez de la région ?</label>
             <textarea
             name="Remarque-1"
             id="region"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
         <div class="mb-8">
-            <label for="amelioration" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">
+            <label for="amelioration" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">
             En quête d’amélioration des animations co-créées par notre équipe pédagogique <br> et notre cellule de développement pédagogique votre regard nous intéresse. <br>
             Auriez vous des idées ou des remarques à formuler concernant Les activités vécues durant le séjour <br> (Contenu, format, durée, matériel etc…) :  
             </label>
@@ -763,7 +763,7 @@ require_once "../elements/header.php";
             id="amelioration"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
@@ -771,7 +771,7 @@ require_once "../elements/header.php";
             <h3 class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Le vivre ensemble à Odcvl <br> et la mise en animation de la vie quotidienne <br> est un axe important du projet Odcvl <br> Comment évaluez-vous l'organisation de ces temps ? :  </h3>
 
             <div class="mb-8">
-                <label for="lever-et-ptidej">Le lever et le petit déjeuner</label>
+                <label for="lever-et-ptidej" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Le lever et le petit déjeuner</label>
                 <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-20" value="1" class="radio-button">
@@ -799,12 +799,12 @@ require_once "../elements/header.php";
                 id="lever-et-ptidej"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>  
             </div>
 
-            <div class="mb-8">
-                <label for="gestion-repas">La gestion des repas</label>
+            <div class="mb-8"> 
+                <label for="gestion-repas" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">La gestion des repas</label>
                 <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-21" value="1" class="radio-button">
@@ -832,12 +832,12 @@ require_once "../elements/header.php";
                 id="gestion-repas"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>  
             </div>
 
             <div class="mb-8">
-                <label for="temps-libre-calme">Les temps libres/calmes</label>
+                <label for="temps-libre-calme" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les temps libres/calmes</label>
                 <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-22" value="1" class="radio-button">
@@ -865,12 +865,12 @@ require_once "../elements/header.php";
                 id="temps-libre-calme"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>  
             </div>
 
             <div class="mb-8">
-                <label for="douches">La gestion du temps des douches</label>
+                <label for="douches" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">La gestion du temps des douches</label>
                 <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-23" value="1" class="radio-button">
@@ -898,12 +898,12 @@ require_once "../elements/header.php";
                 id="douches"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>  
             </div>
 
             <div class="mb-8">
-                <label for="le-coucher">Le coucher</label>
+                <label for="le-coucher" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Le coucher</label>
                 <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-24" value="1" class="radio-button">
@@ -931,7 +931,7 @@ require_once "../elements/header.php";
                 id="le-coucher"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
-                rows="5"
+                rows="2"
                 class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>  
             </div>
         </div>
@@ -952,78 +952,78 @@ require_once "../elements/header.php";
             id="remarque-vie-quot"
             placeholder=" Entrez vos remarques ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
         <div class="mb-8">
-            <h3 class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Comment évaluez-vous  de : </h3>
+            <h3 class="block text-xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Comment évaluez-vous  de : </h3>
             <div>
-            <h4 class="block text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">L'acceuil et la pédagogie de:</h4>
+            <h4 class="block text-center text-lg mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">L'acceuil et la pédagogie de:</h4>
                 <div>
-                    <label for="adjoint"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
+                    <label for="adjoint"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
                     <textarea 
                         name="remarque" 
                         id="adjoint"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
-                        rows="5"
+                        rows="2"
                         class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
                 </div>
 
                 <div>
-                    <label for="equipe"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
+                    <label for="equipe"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
                     <textarea 
                         name="remarque" 
                         id="equipe"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
-                        rows="5"
+                        rows="2"
                         class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
                 </div>
 
                 <div>
-                    <label for="inter-ext"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
+                    <label for="inter-ext"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
                     <textarea 
                         name="remarque" 
                         id="inter-ext"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
-                        rows="5"
+                        rows="2"
                         class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
                 </div>
             </div>
             <div>
-                <h4 class="block text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">La disponibilité et l'écoute de:</h4>
+                <h4 class="block text-xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">La disponibilité et l'écoute de:</h4>
                 <div>
-                    <label for="adjoint"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
+                    <label for="adjoint"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
                     <textarea 
                         name="remarque" 
                         id="adjoint"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
-                        rows="5"
+                        rows="2"
                         class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
                 </div>
 
                 <div>
-                    <label for="equipe"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
+                    <label for="equipe"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
                     <textarea 
                         name="remarque" 
                         id="equipe"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
-                        rows="5"
+                        rows="2"
                         class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
                 </div>
 
                 <div>
-                    <label for="inter-ext"  class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
+                    <label for="inter-ext"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
                     <textarea 
                         name="remarque" 
                         id="inter-ext"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
-                        rows="5"
+                        rows="2"
                         class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
                 </div>
             </div>
@@ -1062,7 +1062,7 @@ require_once "../elements/header.php";
             id="sat-glob"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
@@ -1096,7 +1096,7 @@ require_once "../elements/header.php";
             id="attentes-sejour"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
@@ -1107,7 +1107,7 @@ require_once "../elements/header.php";
             id="exploit"
             placeholder=" Entrez votre avis ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
