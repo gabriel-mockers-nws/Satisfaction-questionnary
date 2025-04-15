@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
         if (value === "oui") {
           container.innerHTML = `
             <div>
-            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Sur la même maison ?</label>
+            <label class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Sur la même maison ?</label>
             <label class="inline-flex items-center space-x-2 text-xl">
                 <input type="radio" name="meme-maison" value="oui" class="radio-button">
                 <span>Oui</span>
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
         } else if (value === "non") {
           container.innerHTML = `
             <div>
-              <label for="raisons" class="block text-lg mb-1 text-center">Pour quelle raison ?</label>
+              <label for="raisons" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Pour quelle raison ?</label>
               <textarea name="raisons" id="raisons" rows="5" cols="45" class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md"></textarea>
             </div>
           `;

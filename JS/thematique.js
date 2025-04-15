@@ -6,7 +6,7 @@ radios.forEach(radio => {
     if (radio.value === "oui" && radio.checked) {
       ideeContainer.innerHTML = `
         <div class="mb-8">
-          <label for="exploit" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">
+          <label for="exploit" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">
             Laquelle ?
           </label>
           <textarea
