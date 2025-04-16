@@ -75,7 +75,7 @@ require_once "../elements/header.php";
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
         <div class="mb-8">
-            <label for="satisfaction-orga" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous été satidfait de l'organisation <br> du séjour avec notre équipe de maison ?</label>
+            <label for="satisfaction-orga" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous été satisfait de l'organisation <br> du séjour avec notre équipe de maison ?</label>
             <textarea
             name="Remarque-1"
             id="satisfaction-orga"
@@ -768,7 +768,7 @@ require_once "../elements/header.php";
         </div>
 
         <div class="mx-8 my-12 justify-items-center text-center">
-            <h3 class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Le vivre ensemble à Odcvl <br> et la mise en animation de la vie quotidienne <br> est un axe important du projet Odcvl <br> Comment évaluez-vous l'organisation de ces temps ? :  </h3>
+            <h3 class="block text-2xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Le vivre ensemble à Odcvl <br> et la mise en animation de la vie quotidienne <br> est un axe important du projet Odcvl <br> Comment évaluez-vous l'organisation de ces temps ? :  </h3>
 
             <div class="mb-8">
                 <label for="lever-et-ptidej" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Le lever et le petit déjeuner</label>
@@ -956,11 +956,33 @@ require_once "../elements/header.php";
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
         <div class="mb-8">
-            <h3 class="block text-xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Comment évaluez-vous  de : </h3>
+            <h3 class="block text-2xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Comment évaluez-vous  de : </h3>
             <div>
-            <h4 class="block text-center text-lg mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">L'acceuil et la pédagogie de:</h4>
+            <h4 class="block text-center text-2xl mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center">L'accueil et la pédagogie de:</h4>
                 <div>
                     <label for="adjoint"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
+                    <div class="flex justify-center gap-4 my-4">
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <span>1</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <span>2</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <span>3</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <span>4</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <span>5</span>
+                        </label>
+                    </div>
                     <textarea 
                         name="remarque" 
                         id="adjoint"
@@ -972,6 +994,28 @@ require_once "../elements/header.php";
 
                 <div>
                     <label for="equipe"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
+                    <div class="flex justify-center gap-4 my-4">
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <span>1</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <span>2</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <span>3</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <span>4</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <span>5</span>
+                        </label>
+                    </div>
                     <textarea 
                         name="remarque" 
                         id="equipe"
@@ -983,6 +1027,28 @@ require_once "../elements/header.php";
 
                 <div>
                     <label for="inter-ext"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
+                    <div class="flex justify-center gap-4 my-4">
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <span>1</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <span>2</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <span>3</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <span>4</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <span>5</span>
+                        </label>
+                    </div>
                     <textarea 
                         name="remarque" 
                         id="inter-ext"
@@ -993,9 +1059,31 @@ require_once "../elements/header.php";
                 </div>
             </div>
             <div>
-                <h4 class="block text-xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">La disponibilité et l'écoute de:</h4>
+                <h4 class="block text-2xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center">La disponibilité et l'écoute de:</h4>
                 <div>
                     <label for="adjoint"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
+                    <div class="flex justify-center gap-4 my-4">
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <span>1</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <span>2</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <span>3</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <span>4</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <span>5</span>
+                        </label>
+                    </div>
                     <textarea 
                         name="remarque" 
                         id="adjoint"
@@ -1007,6 +1095,28 @@ require_once "../elements/header.php";
 
                 <div>
                     <label for="equipe"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
+                    <div class="flex justify-center gap-4 my-4">
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <span>1</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <span>2</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <span>3</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <span>4</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <span>5</span>
+                        </label>
+                    </div>
                     <textarea 
                         name="remarque" 
                         id="equipe"
@@ -1018,6 +1128,28 @@ require_once "../elements/header.php";
 
                 <div>
                     <label for="inter-ext"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
+                    <div class="flex justify-center gap-4 my-4">
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <span>1</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <span>2</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <span>3</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <span>4</span>
+                        </label>
+                        <label class="inline-flex items-center space-x-2 text-xl">
+                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <span>5</span>
+                        </label>
+                    </div>
                     <textarea 
                         name="remarque" 
                         id="inter-ext"
@@ -1034,7 +1166,7 @@ require_once "../elements/header.php";
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold ">Après votre séjour</h2>
         <div class="mb-8">
-            <label for="sat-glob" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Êtes vous globalement satisfait de votre séjour ?</label>
+            <label for="sat-glob" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Êtes vous globalement satisfait de votre séjour ?</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-satg" value="1" class="radio-button">
@@ -1068,7 +1200,7 @@ require_once "../elements/header.php";
 
 
         <div class="mb-8">
-            <label for="attentes-sejour" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Au regard de vos orientations pédagogiques, <br> ce séjour à t'il répondu à vos attentes ? </label>
+            <label for="attentes-sejour" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Au regard de vos orientations pédagogiques, <br> ce séjour à t'il répondu à vos attentes ? </label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-satg-1" value="1" class="radio-button">
@@ -1101,7 +1233,7 @@ require_once "../elements/header.php";
         </div>
 
         <div class="mb-8">
-            <label for="exploit" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Comment allez vous exploiter le séjour <br> à votre retour à l'école ? </label>
+            <label for="exploit" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Comment allez vous exploiter le séjour <br> à votre retour à l'école ? </label>
             <textarea
             name="Remarque-1"
             id="exploit"
@@ -1113,7 +1245,7 @@ require_once "../elements/header.php";
 
         
         <div>
-            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Envisagez-vous un projet futur à Odcvl ?</label>
+            <label class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Envisagez-vous un projet futur à Odcvl ?</label>
             <label class="inline-flex items-center space-x-2 text-xl">
                 <input type="radio" name="projet-futur" value="oui" class="radio-button">
                 <span>Oui</span>
@@ -1126,7 +1258,7 @@ require_once "../elements/header.php";
         <div id="projet-maison" class="mt-6 space-y-4"></div>
         
         <div>
-            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous déjà une idées d'une thématique ?</label>
+            <label class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous déjà une idées d'une thématique ?</label>
             <label class="inline-flex items-center space-x-2 text-xl">
                 <input type="radio" name="thematique" value="oui" class="radio-button">
                 <span>Oui</span>
@@ -1139,7 +1271,7 @@ require_once "../elements/header.php";
         </div>
 
         <div class="mb-8">
-            <label for="date" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">
+            <label for="date" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">
                 Avez-vous une idée de date ?
             </label>
             <input

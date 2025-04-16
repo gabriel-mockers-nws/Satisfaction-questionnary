@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", () => {
           container.innerHTML = `
             <div>
               <label for="raisons" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Pour quelle raison ?</label>
-              <textarea name="raisons" id="raisons" rows="5" cols="45" class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md"></textarea>
+              <textarea name="raisons" id="raisons" rows="5" cols="45" required class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md"></textarea>
             </div>
           `;
         }
