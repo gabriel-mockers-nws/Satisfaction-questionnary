@@ -14,7 +14,7 @@ radios.forEach(radio => {
             id="exploit"
             placeholder=" Entrez votre idée ici"
             cols="45"
-            rows="5"
+            rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md">
           </textarea>
         </div>
