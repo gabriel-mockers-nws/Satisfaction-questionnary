@@ -3,7 +3,7 @@ $title = "Page d'accueil";
 require_once "elements/header.php";
 ?> 
 <div class="text-center mt-32 space-y-4"> 
-<h1 class="text-5xl">Questionnaires de satisfaction</h1>
+<h1 class="text-5xl font-vista ">Questionnaires de satisfaction</h1>
 <p class="italic font-extrabold">Selection du bilan à chaud</p>
 </div>
 
