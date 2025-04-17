@@ -13,3 +13,11 @@
     transform: scale(1.2); /* Agrandir légèrement le bouton au survol */
     transition: all 0.2s ease; /* Transition douce */
 }
+
+@font-face {
+    font-family: "Vista";
+    font-style: normal;
+    font-weight: 200 700;
+    font-display: swap;
+    src: url("./fonts/VistaSansBook.ttf") format("truetype");
+  }
