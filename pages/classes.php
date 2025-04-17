@@ -4,7 +4,7 @@ require_once "../elements/header.php";
 ?> 
 
 <h1 class="text-5xl text-center mt-32">Classes découvertes</h1>
-<form action="POST" id="classe-découverte" class="mx-8 my-12 justify-items-center">
+<form action="#" id="classe-découverte" class="mx-8 my-12 justify-items-center">
 
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold ">Administratif</h2>
@@ -753,19 +753,29 @@ require_once "../elements/header.php";
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
 
-        <div class="mb-8">
-            <label for="amelioration" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">
-            En quête d’amélioration des animations co-créées par notre équipe pédagogique <br> et notre cellule de développement pédagogique votre regard nous intéresse. <br>
-            Auriez vous des idées ou des remarques à formuler concernant Les activités vécues durant le séjour <br> (Contenu, format, durée, matériel etc…) :  
-            </label>
-            <textarea
-            name="Remarque-1"
-            id="amelioration"
-            placeholder=" Entrez votre avis ici"
-            cols="45"
-            rows="2"
-            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+        <div class="mb-8 flex flex-col items-center">
+            <div class="inline-block" style="width: calc(45ch + 1rem);">
+                <label
+                for="amelioration"
+                class="block text-base text-center leading-relaxed mt-4 mb-1.5"
+                >
+                En quête d’amélioration des animations co-créées par notre équipe pédagogique
+                et notre cellule de développement pédagogique, votre regard nous intéresse.
+                Auriez-vous des idées ou des remarques à formuler concernant les activités vécues durant le séjour
+                (Contenu, format, durée, matériel, etc…) :
+                </label>
+
+                <textarea
+                name="Remarque-1"
+                id="amelioration"
+                placeholder="Entrez votre avis ici"
+                cols="45"
+                rows="2"
+                class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md"
+                ></textarea>
+            </div>
         </div>
+
 
         <div class="mx-8 my-12 justify-items-center text-center">
             <h3 class="block text-2xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Le vivre ensemble à Odcvl <br> et la mise en animation de la vie quotidienne <br> est un axe important du projet Odcvl <br> Comment évaluez-vous l'organisation de ces temps ? :  </h3>
@@ -996,23 +1006,23 @@ require_once "../elements/header.php";
                     <label for="equipe"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
                     <div class="flex justify-center gap-4 my-4">
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <input type="radio" name="note-satg1" value="1" class="radio-button">
                             <span>1</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <input type="radio" name="note-satg1" value="2" class="radio-button">
                             <span>2</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <input type="radio" name="note-satg1" value="3" class="radio-button">
                             <span>3</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <input type="radio" name="note-satg1" value="4" class="radio-button">
                             <span>4</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <input type="radio" name="note-satg1" value="5" class="radio-button">
                             <span>5</span>
                         </label>
                     </div>
@@ -1029,23 +1039,23 @@ require_once "../elements/header.php";
                     <label for="inter-ext"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
                     <div class="flex justify-center gap-4 my-4">
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <input type="radio" name="note-satg2" value="1" class="radio-button">
                             <span>1</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <input type="radio" name="note-satg2" value="2" class="radio-button">
                             <span>2</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <input type="radio" name="note-satg2" value="3" class="radio-button">
                             <span>3</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <input type="radio" name="note-satg2" value="4" class="radio-button">
                             <span>4</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <input type="radio" name="note-satg2" value="5" class="radio-button">
                             <span>5</span>
                         </label>
                     </div>
@@ -1064,23 +1074,23 @@ require_once "../elements/header.php";
                     <label for="adjoint"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
                     <div class="flex justify-center gap-4 my-4">
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <input type="radio" name="note-satg3" value="1" class="radio-button">
                             <span>1</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <input type="radio" name="note-satg3" value="2" class="radio-button">
                             <span>2</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <input type="radio" name="note-satg3" value="3" class="radio-button">
                             <span>3</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <input type="radio" name="note-satg3" value="4" class="radio-button">
                             <span>4</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <input type="radio" name="note-satg3" value="5" class="radio-button">
                             <span>5</span>
                         </label>
                     </div>
@@ -1097,23 +1107,23 @@ require_once "../elements/header.php";
                     <label for="equipe"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'équipe d'animation Odcvl</label>
                     <div class="flex justify-center gap-4 my-4">
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <input type="radio" name="note-satg4" value="1" class="radio-button">
                             <span>1</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <input type="radio" name="note-satg4" value="2" class="radio-button">
                             <span>2</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <input type="radio" name="note-satg4" value="3" class="radio-button">
                             <span>3</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <input type="radio" name="note-satg4" value="4" class="radio-button">
                             <span>4</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <input type="radio" name="note-satg4" value="5" class="radio-button">
                             <span>5</span>
                         </label>
                     </div>
@@ -1130,23 +1140,23 @@ require_once "../elements/header.php";
                     <label for="inter-ext"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">Les intervenants extérieurs</label>
                     <div class="flex justify-center gap-4 my-4">
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="1" class="radio-button">
+                            <input type="radio" name="note-satg5" value="1" class="radio-button">
                             <span>1</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="2" class="radio-button">
+                            <input type="radio" name="note-satg5" value="2" class="radio-button">
                             <span>2</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="3" class="radio-button">
+                            <input type="radio" name="note-satg5" value="3" class="radio-button">
                             <span>3</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="4" class="radio-button">
+                            <input type="radio" name="note-satg5" value="4" class="radio-button">
                             <span>4</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg" value="5" class="radio-button">
+                            <input type="radio" name="note-satg5" value="5" class="radio-button">
                             <span>5</span>
                         </label>
                     </div>
@@ -1169,23 +1179,23 @@ require_once "../elements/header.php";
             <label for="sat-glob" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Êtes vous globalement satisfait de votre séjour ?</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-satg" value="1" class="radio-button">
+                    <input type="radio" name="note-satg6" value="1" class="radio-button">
                     <span>1</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-satg" value="2" class="radio-button">
+                    <input type="radio" name="note-satg6" value="2" class="radio-button">
                     <span>2</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-satg" value="3" class="radio-button">
+                    <input type="radio" name="note-satg6" value="3" class="radio-button">
                     <span>3</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-satg" value="4" class="radio-button">
+                    <input type="radio" name="note-satg6" value="4" class="radio-button">
                     <span>4</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-satg" value="5" class="radio-button">
+                    <input type="radio" name="note-satg6" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
@@ -1274,15 +1284,17 @@ require_once "../elements/header.php";
             <label for="date" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">
                 Avez-vous une idée de date ?
             </label>
-            <input
-                id="date"
-                type="date"
-                value="2017-06-01"
-                class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md px-4 py-2"/>
+            <textarea
+            name="Remarque-1"
+            id="exploit"
+            placeholder=" Entrez votre avis ici"
+            cols="45"
+            rows="2"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
     </div>
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="#">Envoyer le formulaire</a>
+    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] " id="btn-sub" type="button">
+        Envoyer le formulaire
     </button>
 </form>
 
@@ -1291,3 +1303,4 @@ require_once "../elements/header.php";
 <script src="/JS/equipements.js"></script>
 <script src="/JS/projet-futur.js"></script>
 <script src="/JS/thematique.js"></script>
+<script src="/JS/btn-reset.js"></script>
