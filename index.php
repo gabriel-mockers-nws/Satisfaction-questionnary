@@ -2,7 +2,7 @@
 $title = "Page d'accueil";
 require_once "elements/header.php";
 require_once 'methodes/dbConnect.php';
-$pdoManager = new DBManager('test');
+$pdoManager = new DBManager('odcvl');
 $pdo = $pdoManager->getPDO();
 ?> 
 <div class="text-center mt-32 space-y-4"> 
@@ -12,7 +12,7 @@ $pdo = $pdoManager->getPDO();
 
 <nav class="flex flex-col items-center my-10 h-screen space-y-4">
     <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="pages/classes.php">Classes</a>
+        <a href="pages/classes-form.php">Classes</a>
     </button>
     <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
         <a href="pages/groupes-packages.php">Groupes packagés</a>
