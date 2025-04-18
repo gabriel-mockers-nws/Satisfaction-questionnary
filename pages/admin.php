@@ -6,7 +6,7 @@ require_once dirname(__DIR__) . DIRECTORY_SEPARATOR . 'functions' . DIRECTORY_SE
 ?>
 <h1>test de titre</h1>
 <?php if(est_connecte()): ?> 
-              <li class="nav-item"><a href="/logout.php" class="nav-link">Se déconecter</a></li>
+    <li class="nav-item"><a href="/logout.php" class="nav-link">Se déconecter</a></li>
 <?php endif ?> 
 
 
