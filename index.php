@@ -1,6 +1,9 @@
 <?php 
 $title = "Page d'accueil";
 require_once "elements/header.php";
+require_once 'methodes/dbConnect.php';
+$pdoManager = new DBManager('test');
+$pdo = $pdoManager->getPDO();
 ?> 
 <div class="text-center mt-32 space-y-4"> 
 <h1 class="text-5xl font-vista ">Questionnaires de satisfaction</h1>
