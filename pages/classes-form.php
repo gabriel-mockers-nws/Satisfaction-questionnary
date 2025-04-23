@@ -4,7 +4,7 @@ require_once "../elements/header.php";
 ?> 
 
 <h1 class="text-5xl text-center mt-32">Classes découvertes</h1>
-<form action="#" id="classe-découverte" class="mx-8 my-12 justify-items-center">
+<form method="post" action="../methodes/createDATA.php" id="classe-découverte" class="mx-8 my-12 justify-items-center">
 
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold ">Administratif</h2>
@@ -67,7 +67,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-2"
             id="suivis-admin"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -77,7 +77,7 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="satisfaction-orga" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Avez-vous été satisfait de l'organisation <br> du séjour avec notre équipe de maison ?</label>
             <textarea
-            name="Remarque-1"
+            name="Remarque-3"
             id="satisfaction-orga"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -108,7 +108,7 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="premier-ressenti" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Quel fut votre premier ressenti  lors de votre <br> arrivée dans notre maison tous séjours ?</label>
             <textarea
-            name="Remarque-1"
+            name="Remarque-4"
             id="premier-ressenti"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -142,7 +142,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-5"
             id="responsable-de-maison"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -173,7 +173,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-6"
             id="agent-polyvalents"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -231,7 +231,7 @@ require_once "../elements/header.php";
                     </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-7"
                 id="propreté-générale"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -264,7 +264,7 @@ require_once "../elements/header.php";
                     </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-8"
                 id="chambres"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -297,7 +297,7 @@ require_once "../elements/header.php";
                     </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-9"
                 id="rangements"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -330,7 +330,7 @@ require_once "../elements/header.php";
                     </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-10"
                 id="sanitaires"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -363,7 +363,7 @@ require_once "../elements/header.php";
                     </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-11"
                 id="chauffage"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -396,7 +396,7 @@ require_once "../elements/header.php";
                     </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-12"
                 id="salles-travail"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -429,7 +429,7 @@ require_once "../elements/header.php";
                     </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-13"
                 id="salle-manger"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -462,7 +462,7 @@ require_once "../elements/header.php";
                     </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-14"
                 id="exterieurs"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -511,7 +511,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-15"
             id="qual-plat"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -544,7 +544,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-16"
             id="qte"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -577,7 +577,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-17"
             id="petit-dejeuner"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -610,7 +610,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-18"
             id="gouter"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -643,7 +643,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-19"
             id="variete"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -676,7 +676,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-20"
             id="regimes-alimentaire"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -709,7 +709,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-21"
             id="presentation-et-service"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -723,7 +723,7 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="rythme" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu'avez-vous pensez du rythme <br> de votre séjour ?</label>
             <textarea
-            name="Remarque-1"
+            name="Remarque-22"
             id="rythme"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -734,7 +734,7 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="thematique" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu’avez-vous pensez de la thématique <br> de votre projet ?</label>
             <textarea
-            name="Remarque-1"
+            name="Remarque-23"
             id="thematique"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -745,7 +745,7 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="region" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Qu’avez-vous pensez de la région ?</label>
             <textarea
-            name="Remarque-1"
+            name="Remarque-24"
             id="region"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -766,7 +766,7 @@ require_once "../elements/header.php";
                 </label>
 
                 <textarea
-                name="Remarque-1"
+                name="Remarque-25"
                 id="amelioration"
                 placeholder="Entrez votre avis ici"
                 cols="45"
@@ -805,7 +805,7 @@ require_once "../elements/header.php";
                 </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-26"
                 id="lever-et-ptidej"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -838,7 +838,7 @@ require_once "../elements/header.php";
                 </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-27"
                 id="gestion-repas"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -871,7 +871,7 @@ require_once "../elements/header.php";
                 </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-28"
                 id="temps-libre-calme"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -904,7 +904,7 @@ require_once "../elements/header.php";
                 </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-29"
                 id="douches"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -937,7 +937,7 @@ require_once "../elements/header.php";
                 </label>
                 </div>
                 <textarea
-                name="Remarque-1"
+                name="Remarque-30"
                 id="le-coucher"
                 placeholder=" Entrez votre avis ici"
                 cols="45"
@@ -947,8 +947,8 @@ require_once "../elements/header.php";
         </div>
 
         <div>
-        <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold"> Avez-vous bénéficié d'outils pédagogique durant la vie quotidienne ?</label>
-        <label class="inline-flex items-center space-x-2 text-xl">
+            <label class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold"> Avez-vous bénéficié d'outils pédagogique durant la vie quotidienne ?</label>
+            <label class="inline-flex items-center space-x-2 text-xl">
                 <input type="radio" name="outils-pedago" value="oui" class="radio-button">
                 <span>Oui</span>
             </label>
@@ -956,15 +956,17 @@ require_once "../elements/header.php";
                 <input type="radio" name="outils-pedago" value="non" class="radio-button">
                 <span>Non</span>
             </label>
-        <label for="remarque-vie-quot" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold"> Avez-vous des remarques à nous apporter ?</label>
-        <textarea
-            name="Remarque-1"
-            id="remarque-vie-quot"
-            placeholder=" Entrez vos remarques ici"
-            cols="45"
-            rows="2"
-            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
+
+            <label for="remarque-vie-quot" class="block text-lg text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold"> Avez-vous des remarques à nous apporter ?</label>
+            <textarea
+                name="Remarque-31"
+                id="remarque-vie-quot"
+                placeholder=" Entrez vos remarques ici"
+                cols="45"
+                rows="2"
+                class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
+        
         <div class="mb-8">
             <h3 class="block text-2xl text-center mx-auto w-full leading-relaxed mt-4 mb-10 align-item-center font-bold">Comment évaluez-vous  de : </h3>
             <div>
@@ -994,7 +996,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque" 
+                        name="remarque-32" 
                         id="adjoint"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1027,7 +1029,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque" 
+                        name="remarque-33" 
                         id="equipe"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1060,7 +1062,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque" 
+                        name="remarque-34" 
                         id="inter-ext"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1095,7 +1097,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque" 
+                        name="remarque-35" 
                         id="adjoint"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1128,7 +1130,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque" 
+                        name="remarque-36" 
                         id="equipe"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1161,7 +1163,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque" 
+                        name="remarque-37" 
                         id="inter-ext"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1200,7 +1202,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-38"
             id="sat-glob"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -1234,7 +1236,7 @@ require_once "../elements/header.php";
                 </label>
             </div>
             <textarea
-            name="Remarque-1"
+            name="Remarque-39"
             id="attentes-sejour"
             placeholder=" Entrez votre avis ici"
             cols="45"
@@ -1245,9 +1247,9 @@ require_once "../elements/header.php";
         <div class="mb-8">
             <label for="exploit" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Comment allez vous exploiter le séjour <br> à votre retour à l'école ? </label>
             <textarea
-            name="Remarque-1"
+            name="Remarque-40"
             id="exploit"
-            placeholder=" Entrez votre avis ici"
+            placeholder="Entrez votre avis ici"
             cols="45"
             rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
@@ -1285,15 +1287,15 @@ require_once "../elements/header.php";
                 Avez-vous une idée de date ?
             </label>
             <textarea
-            name="Remarque-1"
-            id="exploit"
-            placeholder=" Entrez votre avis ici"
+            name="Remarque-41"
+            id="date"
+            placeholder="Entrez votre avis ici"
             cols="45"
             rows="2"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
     </div>
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] " id="btn-sub" type="button">
+    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] " id="btn-sub" type="submit">
         Envoyer le formulaire
     </button>
 </form>
@@ -1303,4 +1305,4 @@ require_once "../elements/header.php";
 <script src="/JS/equipements.js"></script>
 <script src="/JS/projet-futur.js"></script>
 <script src="/JS/thematique.js"></script>
-<script src="/JS/btn-reset.js"></script>
+<!-- <script src="/JS/btn-reset.js"></script> -->

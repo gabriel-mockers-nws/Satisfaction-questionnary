@@ -1,11 +1,11 @@
-const submitBtn = document.getElementById("btn-sub");
+// const submitBtn = document.getElementById("btn-sub");
 
-submitBtn.addEventListener("click", function () {
-  const forms = document.querySelectorAll("form");
+// submitBtn.addEventListener("click", function () {
+//   const forms = document.querySelectorAll("form");
 
-  forms.forEach((frm) => {
-    frm.reset();
-  });
+//   forms.forEach((frm) => {
+//     frm.reset();
+//   });
 
-  alert("Merci pour votre retour !");
-});
+//   alert("Merci pour votre retour !");
+// });
