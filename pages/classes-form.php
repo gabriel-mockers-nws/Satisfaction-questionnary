@@ -14,23 +14,23 @@ require_once "../elements/header.php";
             </label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-1" value="1" class="radio-button">
+                    <input type="radio" name="note-1" value="1" class="radio-button" required>
                     <span>1</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-1" value="2" class="radio-button">
+                    <input type="radio" name="note-1" value="2" class="radio-button" required>
                     <span>2</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-1" value="3" class="radio-button">
+                    <input type="radio" name="note-1" value="3" class="radio-button" required>
                     <span>3</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-1" value="4" class="radio-button">
+                    <input type="radio" name="note-1" value="4" class="radio-button" required>
                     <span>4</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="note-1" value="5" class="radio-button">
+                    <input type="radio" name="note-1" value="5" class="radio-button" required>
                     <span>5</span>
                 </label>
             </div>
@@ -1076,23 +1076,23 @@ require_once "../elements/header.php";
                     <label for="adjoint"  class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5 align-item-center">L'adjoint pédagogique de maison</label>
                     <div class="flex justify-center gap-4 my-4">
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg3" value="1" class="radio-button">
+                            <input type="radio" name="note-satg3" value="1" class="radio-button" required>
                             <span>1</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg3" value="2" class="radio-button">
+                            <input type="radio" name="note-satg3" value="2" class="radio-button" required>
                             <span>2</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg3" value="3" class="radio-button">
+                            <input type="radio" name="note-satg3" value="3" class="radio-button" required>
                             <span>3</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg3" value="4" class="radio-button">
+                            <input type="radio" name="note-satg3" value="4" class="radio-button" required>
                             <span>4</span>
                         </label>
                         <label class="inline-flex items-center space-x-2 text-xl">
-                            <input type="radio" name="note-satg3" value="5" class="radio-button">
+                            <input type="radio" name="note-satg3" value="5" class="radio-button" required>
                             <span>5</span>
                         </label>
                     </div>
