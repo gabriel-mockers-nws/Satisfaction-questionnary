@@ -10,7 +10,7 @@ radios.forEach(radio => {
             Laquelle ?
           </label>
           <textarea
-            name="Remarque-1"
+            name="laquelle"
             id="exploit"
             placeholder=" Entrez votre idée ici"
             cols="45"
