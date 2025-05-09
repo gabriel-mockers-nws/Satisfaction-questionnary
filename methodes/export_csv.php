@@ -4,6 +4,8 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Charge PHPMailer
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__ . '/..', 'log.env'); // Assure-toi que ton fichier est bien nommé log.env
+$dotenv->load();  // Charge les variables d'environnement
 
 // Fonction pour générer le contenu CSV
 function exportCSVContent($pdo, string $table, int $id): string {
@@ -49,16 +51,16 @@ if (basename(__FILE__) === basename($_SERVER['SCRIPT_FILENAME'])) {
     try {
         $mail = new PHPMailer(true);
         $mail->isSMTP();
-        $mail->Host       = 'mail.infomaniak.com';
+        $mail->Host       = $_ENV['MAIL_HOST']; // Chargé depuis .env
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'gabriel.mockers@odcvl.org'; // Adresse autorisée
-        $mail->Password   = 'G@bri3!25'; // Ton mot de passe SMTP
+        $mail->Username   = $_ENV['MAIL_USERNAME']; // Chargé depuis .env
+        $mail->Password   = $_ENV['MAIL_PASSWORD']; // Chargé depuis .env
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
+        $mail->Port       = $_ENV['MAIL_PORT']; // Chargé depuis .env
 
         // En-têtes de l'email
-        $mail->setFrom('gabriel.mockers@odcvl.org', 'Formulaire ODCVL');
-        $mail->addAddress('bilans@odcvl.org', 'Destinataire');
+        $mail->setFrom($_ENV['MAIL_FROM_ADDRESS'], $_ENV['MAIL_FROM_NAME']); // Chargé depuis .env
+        $mail->addAddress($_ENV['MAIL_TO'], 'Destinataire'); // Chargé depuis .env
 
         $mail->isHTML(true);
         $mail->Subject = 'Export CSV - Formulaire ' . $formType;
