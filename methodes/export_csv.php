@@ -1,5 +1,9 @@
 <?php
 require_once 'dbConnect.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require_once __DIR__ . '/../vendor/autoload.php'; // Charge PHPMailer
 
 // Fonction pour générer le contenu CSV
 function exportCSVContent($pdo, string $table, int $id): string {
@@ -41,32 +45,31 @@ if (basename(__FILE__) === basename($_SERVER['SCRIPT_FILENAME'])) {
 
     $csvContent = exportCSVContent($pdo, $formType, (int)$lastInsertId);
 
-    // === ENVOI PAR MAIL (optionnel si tu veux juste tester depuis l’URL) ===
-    $to = 'bilan@odcvl.org';
-    $subject = 'Export CSV - Formulaire ' . $formType;
-    $boundary = md5(uniqid());
+    // === ENVOI PAR MAIL ===
+    try {
+        $mail = new PHPMailer(true);
+        $mail->isSMTP();
+        $mail->Host       = 'mail.infomaniak.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'gabriel.mockers@odcvl.org'; // Adresse autorisée
+        $mail->Password   = 'G@bri3!25'; // Ton mot de passe SMTP
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
 
-    $headers = "From: export@tonsite.com\r\n";
-    $headers .= "MIME-Version: 1.0\r\n";
-    $headers .= "Content-Type: multipart/mixed; boundary=\"$boundary\"";
+        // En-têtes de l'email
+        $mail->setFrom('gabriel.mockers@odcvl.org', 'Formulaire ODCVL');
+        $mail->addAddress('bilans@odcvl.org', 'Destinataire');
 
-    $message = "--$boundary\r\n";
-    $message .= "Content-Type: text/plain; charset=\"UTF-8\"\r\n\r\n";
-    $message .= "Veuillez trouver ci-joint le fichier exporté.\r\n";
+        $mail->isHTML(true);
+        $mail->Subject = 'Export CSV - Formulaire ' . $formType;
+        $mail->Body    = 'Bonjour,<br><br>Veuillez trouver ci-joint le fichier exporté.<br><br>Cordialement.';
 
-    $attachment = chunk_split(base64_encode($csvContent));
-    $filename = "export_" . $formType . "_" . date("Y-m-d_H-i-s") . ".csv";
+        // Ajouter la pièce jointe
+        $mail->addStringAttachment($csvContent, "export_" . $formType . "_" . date("Y-m-d_H-i-s") . ".csv", 'base64', 'text/csv');
 
-    $message .= "--$boundary\r\n";
-    $message .= "Content-Type: text/csv; name=\"$filename\"\r\n";
-    $message .= "Content-Disposition: attachment; filename=\"$filename\"\r\n";
-    $message .= "Content-Transfer-Encoding: base64\r\n\r\n";
-    $message .= $attachment . "\r\n";
-    $message .= "--$boundary--";
-
-    if (mail($to, $subject, $message, $headers)) {
+        $mail->send();
         echo "E-mail envoyé avec succès.";
-    } else {
-        echo "Échec de l'envoi de l'e-mail.";
+    } catch (Exception $e) {
+        echo "Erreur mail : " . $mail->ErrorInfo;
     }
 }
