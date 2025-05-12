@@ -996,7 +996,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque-32" 
+                        name="Remarque-32" 
                         id="adjoint"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1029,7 +1029,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque-33" 
+                        name="Remarque-33" 
                         id="equipe"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1062,7 +1062,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque-34" 
+                        name="Remarque-34" 
                         id="inter-ext"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1097,7 +1097,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque-35" 
+                        name="Remarque-35" 
                         id="adjoint"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1130,7 +1130,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque-36" 
+                        name="Remarque-36" 
                         id="equipe"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
@@ -1163,7 +1163,7 @@ require_once "../elements/header.php";
                         </label>
                     </div>
                     <textarea 
-                        name="remarque-37" 
+                        name="Remarque-37" 
                         id="inter-ext"
                         placeholder=" Entrez vos remarques ici"
                         cols="45"
