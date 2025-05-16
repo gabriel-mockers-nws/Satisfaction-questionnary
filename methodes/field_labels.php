@@ -2,6 +2,7 @@
 // field_labels_classe.php
 
 return [
+    'id' => 'N°',
     'constructionnotes' => 'Note construction du projet',
     'contructiontext' => 'Remarque construction du projet',
     'administratifnote' => 'Note administratif',
@@ -90,4 +91,13 @@ return [
     'laquelle' => 'Thématique souhaitée',
     'datefuture' => 'Date souhaitée',
     'acpeintervtext' => 'Remarque intervenants accueil & pédagogie',
+    'nom_ecole' => 'Nom de l\'école',
+    'nom_ville' => 'Nom de la ville',
+    'enseignants' => 'Nom des enseignants',
+    'date_debut' => 'Date de début',
+    'date_fin' => 'Date de fin',
+    'centre' => 'Centre',
+    'niveau' => 'Niveau des classes',
+    'effectif' => 'Effectif total',
+    'date_export' => 'Exporté le :',
 ];
