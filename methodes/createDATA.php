@@ -130,22 +130,48 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     }
     $donnee87 = getPost('Remarque-41');
     $donnee88 = getPost('Remarque-34');
+    $donnee89 = getPost('nom_ecole');
+    $donnee90 = getPost('nom_ville');
+    $donnee91 = getPost('enseignants');
+    $donnee92 = getPost('date-debut');
+    $donnee93 = getPost('date-fin');
+    $donnee94 = getPost('Centre');
+    $donnee95 = getPost('Niveau');
+    $donnee96 = getPost('Effectif');
 
 
-    $stmt = $pdo->prepare("INSERT INTO classe (constructionnotes, contructiontext, administratifnote, administratiftext, organisationtext, transportbool, compagnietext, satisfaittext, raisontext, transporteurtext, satisfactionautretext, premierressentittext, accueilresponsablenote, accueilresponsabletext, accueilagentsnote, accueilagentstext, qualitemaisongeneralenote, propretegeneralenote, propretegeneraletext, chambrenote, chambretext, rangementsnote, rangementtext, sanitairesnotes, sanitairestext, chauffagenote, chauffagetext, salletravailnote, salletravailtext, sallemangernote, sallemangertext, exterieursnote, exterieurstext, equipementsbool, manquestext, qualplatmidisoirnote, qualplatmidisoirtext, quantitenote, quantitetext, petidejnote, petitdejtext, goutersnote, goutertext, varmenusnote, varmenustext, regimenote, regimetext, presservicenote, presservicetext, rythmetext, thematiquetext, regiontext, ameliorationstext, leverptidejnote, leverptidejtext, gestrepasnote, gestrepastext, tempslibresnote, tempslibrestext, douchesnote, douchestext, couchernote, couchertext, outilspedagobool, remarquestext, acpeadjointnote, acpeadjointtext, acpeequipeanimnote, acpeequipeanimtext, acpeintervnote, disecadjointnote, disecadjointtext, disecequipeanimnote, disecequipeanimtext, desecintervnote, disecintervtext, satisfglobnote, satifglobtext, attentesnote, attentetext, exploittext, projetfuturbool, raisonsnotext, mememaisonbool, thematiquebool, laquelle, datefuture, acpeintervtext) VALUES (" . rtrim(str_repeat('?,', 88), ',') . ")");
+    $stmt = $pdo->prepare("INSERT INTO classe (constructionnotes, contructiontext, administratifnote, administratiftext, organisationtext, transportbool, compagnietext, satisfaittext, raisontext, transporteurtext, satisfactionautretext, premierressentittext, accueilresponsablenote, accueilresponsabletext, accueilagentsnote, accueilagentstext, qualitemaisongeneralenote, propretegeneralenote, propretegeneraletext, chambrenote, chambretext, rangementsnote, rangementtext, sanitairesnotes, sanitairestext, chauffagenote, chauffagetext, salletravailnote, salletravailtext, sallemangernote, sallemangertext, exterieursnote, exterieurstext, equipementsbool, manquestext, qualplatmidisoirnote, qualplatmidisoirtext, quantitenote, quantitetext, petidejnote, petitdejtext, goutersnote, goutertext, varmenusnote, varmenustext, regimenote, regimetext, presservicenote, presservicetext, rythmetext, thematiquetext, regiontext, ameliorationstext, leverptidejnote, leverptidejtext, gestrepasnote, gestrepastext, tempslibresnote, tempslibrestext, douchesnote, douchestext, couchernote, couchertext, outilspedagobool, remarquestext, acpeadjointnote, acpeadjointtext, acpeequipeanimnote, acpeequipeanimtext, acpeintervnote, disecadjointnote, disecadjointtext, disecequipeanimnote, disecequipeanimtext, desecintervnote, disecintervtext, satisfglobnote, satifglobtext, attentesnote, attentetext, exploittext, projetfuturbool, raisonsnotext, mememaisonbool, thematiquebool, laquelle, datefuture, acpeintervtext, nom_ecole, nom_ville, enseignants, date_debut, date_fin, centre, niveau, effectif) VALUES (" . rtrim(str_repeat('?,', 96), ',') . ")");
 
-    $stmt->execute([$donnee1, $donnee2, $donnee3, $donnee4, $donnee5, $donnee6, $donnee7, $donnee8, $donnee9, $donnee10, $donnee11, $donnee12, $donnee13, $donnee14, $donnee15, $donnee16, $donnee17, $donnee18, $donnee19, $donnee20, $donnee21, $donnee22, $donnee23, $donnee24, $donnee25, $donnee26, $donnee27, $donnee28, $donnee29, $donnee30, $donnee31, $donnee32, $donnee33, $donnee34, $donnee35, $donnee36, $donnee37, $donnee38, $donnee39, $donnee40, $donnee41, $donnee42, $donnee43, $donnee44, $donnee45, $donnee46, $donnee47, $donnee48, $donnee49, $donnee50, $donnee51, $donnee52, $donnee53, $donnee54, $donnee55, $donnee56, $donnee57, $donnee58, $donnee59, $donnee60, $donnee61, $donnee62, $donnee63, $donnee64, $donnee65, $donnee66, $donnee67, $donnee68, $donnee69, $donnee70, $donnee71, $donnee72, $donnee73, $donnee74, $donnee75, $donnee76, $donnee77, $donnee78, $donnee79, $donnee80, $donnee81, $donnee82, $donnee83, $donnee84, $donnee85, $donnee86, $donnee87, $donnee88]);  
+    $stmt->execute([$donnee1, $donnee2, $donnee3, $donnee4, $donnee5, $donnee6, $donnee7, $donnee8, $donnee9, $donnee10, $donnee11, $donnee12, $donnee13, $donnee14, $donnee15, $donnee16, $donnee17, $donnee18, $donnee19, $donnee20, $donnee21, $donnee22, $donnee23, $donnee24, $donnee25, $donnee26, $donnee27, $donnee28, $donnee29, $donnee30, $donnee31, $donnee32, $donnee33, $donnee34, $donnee35, $donnee36, $donnee37, $donnee38, $donnee39, $donnee40, $donnee41, $donnee42, $donnee43, $donnee44, $donnee45, $donnee46, $donnee47, $donnee48, $donnee49, $donnee50, $donnee51, $donnee52, $donnee53, $donnee54, $donnee55, $donnee56, $donnee57, $donnee58, $donnee59, $donnee60, $donnee61, $donnee62, $donnee63, $donnee64, $donnee65, $donnee66, $donnee67, $donnee68, $donnee69, $donnee70, $donnee71, $donnee72, $donnee73, $donnee74, $donnee75, $donnee76, $donnee77, $donnee78, $donnee79, $donnee80, $donnee81, $donnee82, $donnee83, $donnee84, $donnee85, $donnee86, $donnee87, $donnee88, $donnee89, $donnee90, $donnee91, $donnee92, $donnee93, $donnee94, $donnee95, $donnee96]);  
     
     $lastInsertId = $pdo->lastInsertId();
 
+    
     require_once 'export_csv.php';
-    $formType = 'classe'; // ou 'groupes' si c’est le bon formulaire
-    $csvContent = exportCSVContent($pdo, $formType, (int)$lastInsertId);
-
     require_once 'send_mail.php';
-    sendMailWithRawCSV($csvContent, "export_{$formType}_{$lastInsertId}.csv");
- 
 
+    $formType = 'classe';
+    $today = date('Y-m-d');
+    $ecoleNomNettoye = preg_replace('/[^a-zA-Z0-9_\-]/', '_', $donnee89);
+
+    // Création des deux contenus
+    $csvContentSingle = exportCSVContent($pdo, $formType, (int)$lastInsertId);
+    $csvContentAll = exportCSVContent($pdo, $formType, null);
+
+    // Préparation des fichiers à envoyer
+    $attachments = [
+        [
+            'filename' => "{$formType}_{$ecoleNomNettoye}_{$today}_id{$lastInsertId}.csv",
+            'content' => $csvContentSingle
+        ],
+        [
+            'filename' => "{$formType}_ALL_{$today}.csv",
+            'content' => $csvContentAll
+        ]
+    ];
+
+    // Envoi du mail avec plusieurs pièces jointes
+    sendMailWithMultipleCSVs($attachments);
 };
 
 ?>
