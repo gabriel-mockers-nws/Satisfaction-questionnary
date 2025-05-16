@@ -4,8 +4,99 @@ require_once "../elements/header.php";
 ?> 
 
 <h1 class="text-5xl text-center mt-32">Classes découvertes</h1>
-<form method="post" action="../methodes/createDATA.php" id="classe-découverte" class="mx-8 my-12 justify-items-center">
+<form method="post" action="../methodes/createDATA.php" id="classe-découverte" class="mx-8 my-12">
+    <div class="text-center mb-8">
+        <h2 class="text-3xl font-bold ">Informations générales</h2>
+         <div class="mb-8">
+            <label for="ecole" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Nom de l'école</label>
+            <textarea
+             name="nom_ecole"
+             id="ecole"
+             placeholder=" Entrez votre avis ici"
+             cols="45"
+             rows="2"
+             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
+             require></textarea>
+        </div>
+        <div class="mb-8">
+            <label for="ville" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Nom de la Ville</label>
+            <textarea
+             name="nom_ville"
+             id="ville"
+             placeholder=" Entrez votre avis ici"
+             cols="45"
+             rows="2"
+             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
+             require></textarea>
+        </div>
+        <div class="mb-8">
+            <label for="nom-enseignants" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Nom du/des enseignant.e.s.es</label>
+            <textarea
+             name="enseignants"
+             id="nom-enseignants"
+             placeholder=" Entrez votre avis ici"
+             cols="45"
+             rows="2"
+             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "
+             require></textarea>
+        </div>
+        <div class="mb-8">
+            <label for="dates" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Dates du séjour</label>
+            <div class="inline-flex items-center space-x-2 text-xl">
+                <input 
+                type="date" 
+                name="date-debut" 
+                id="dates-deb" 
+                class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md ">
+                </input>
+                <p>au</p>
+                <input 
+                type="date" 
+                name="date-fin" 
+                id="dates-fin" 
+                class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md ">
+                </input>
+            </div>
+        </div>
+        <div class="mb-8">
+            <label for="centre" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Centre</label>
+            <textarea
+             name="Centre"
+             id="centre"
+             placeholder=" Entrez votre avis ici"
+             cols="45"
+             rows="2"
+             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "
+             require></textarea>
+        </div> 
 
+        <div class="mb-8 flex justify-center flex-wrap">
+            <div class="flex flex-col items-center mr-4">
+                <label for="niveau" class="text-base text-center mb-1.5">Niveau de(s) classe(s)</label>
+                <textarea
+                 name="Niveau"
+                 id="niveau"
+                 placeholder=" Entrez le niveau ici"
+                 cols="25"
+                 rows="2"
+                 class="mt-2 rounded-lg border-2 border-[#bf198c] shadow-md shadow-[#C73F67]"
+                 require></textarea>
+            </div>
+
+            <div class="flex flex-col items-center ml-4">
+                <label for="eff" class="text-base text-center mb-1.5">Effectif</label>
+                <textarea
+                 name="Effectif"
+                 id="eff"
+                 placeholder=" Entrez l'effectif ici"
+                 cols="25"
+                 rows="2"
+                 class="mt-2 rounded-lg border-2 border-[#bf198c] shadow-md shadow-[#C73F67]"
+                 require></textarea>
+            </div>
+        </div>
+
+    </div>
     <div class="mx-8 my-12 justify-items-center text-center">
         <h2 class="text-3xl font-bold ">Administratif</h2>
         <div class="mb-8">
@@ -14,24 +105,25 @@ require_once "../elements/header.php";
             </label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
+                    <span>pas satisfait</span>
                     <input type="radio" name="note-1" value="1" class="radio-button" required>
-                    <span>1</span>
+                    
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-1" value="2" class="radio-button" required>
-                    <span>2</span>
+                    <span></span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-1" value="3" class="radio-button" required>
-                    <span>3</span>
+                    <span></span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-1" value="4" class="radio-button" required>
-                    <span>4</span>
+                    <span></span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
                     <input type="radio" name="note-1" value="5" class="radio-button" required>
-                    <span>5</span>
+                    <span>très satisfait</span>
                 </label>
             </div>
             <textarea
@@ -1295,7 +1387,7 @@ require_once "../elements/header.php";
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
     </div>
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] " id="btn-sub" type="submit">
+    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] items-center " id="btn-sub" type="submit">
         Envoyer le formulaire
     </button>
 </form>
