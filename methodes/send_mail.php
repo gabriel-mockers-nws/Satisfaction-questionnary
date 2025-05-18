@@ -27,7 +27,7 @@ function sendMailWithMultipleCSVs(array $attachments): bool {
 
         $mail->isHTML(true);
         $mail->Subject = 'Nouveaux rapports soumis';
-        $mail->Body    = 'Bonjour,<br><br>Veuillez trouver ci-joint les rapports au format CSV.<br><br>Câlin cordial de serveur 💌.';
+        $mail->Body    = 'Bonjour,<br><br>Veuillez trouver ci-joint les rapports au format CSV.<br>.';
 
         // On boucle sur chaque pièce jointe
         foreach ($attachments as $file) {
