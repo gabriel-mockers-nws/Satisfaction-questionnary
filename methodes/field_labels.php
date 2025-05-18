@@ -100,4 +100,5 @@ return [
     'niveau' => 'Niveau des classes',
     'effectif' => 'Effectif total',
     'date_export' => 'Exporté le :',
+    'date_soumission' => 'Date de soumission',
 ];
