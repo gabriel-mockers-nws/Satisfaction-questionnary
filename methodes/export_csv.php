@@ -66,7 +66,8 @@ function exportCSVContent($pdo, string $table, ?int $id = null): string {
             'effectif'
         ];
 
-        $row = reorderArray($row, 'date_export', 'id');
+        $row = reorderArray($row, 'date_soumission', 'id');
+        $row = reorderArray($row, 'date_export', 'date_soumission');
         foreach (array_reverse($colonnesDevant) as $colonne) {
             $row = reorderArray($row, $colonne, 'date_export');
         }
