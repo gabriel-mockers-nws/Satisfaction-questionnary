@@ -1387,9 +1387,11 @@ require_once "../elements/header.php";
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "></textarea>
         </div>
     </div>
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] items-center " id="btn-sub" type="submit">
-        Envoyer le formulaire
-    </button>
+    <div class="flex justify-center mt-4">
+        <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67]" id="btn-sub" type="submit">
+            Envoyer le formulaire
+        </button>
+    </div>
 </form>
 
 <?php require "../elements/footer.php" ?> 
