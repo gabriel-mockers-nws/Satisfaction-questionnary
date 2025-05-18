@@ -31,7 +31,6 @@ class DBManager {
             $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->pdo = $pdo;
     
-            echo "Connexion à la base de données réussie.";
                 
         } catch (PDOException $e) {
             die("Erreur de connexion : " . $e->getMessage());
