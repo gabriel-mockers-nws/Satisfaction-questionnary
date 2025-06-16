@@ -1,6 +1,6 @@
 <?php 
 $title = "Page d'accueil";
-require_once "elements/header.php";
+require_once "./elements/header.php";
 require_once 'methodes/dbConnect.php';
 $pdoManager = new DBManager('odcvl');
 $pdo = $pdoManager->getPDO();
@@ -28,4 +28,4 @@ $pdo = $pdoManager->getPDO();
     </button>
 </nav>
 
-<?php require_once "elements/footer.php" ?> 
+<?php require_once "./elements/footer.php" ?> 

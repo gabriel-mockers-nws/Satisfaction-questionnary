@@ -1,6 +1,6 @@
 <?php 
 $title = "Classes";
-require_once "../elements/header.php";
+require_once "./elements/header.php";
 ?> 
 
 <h1 class="text-5xl text-center mt-32">Classes découvertes</h1>
@@ -1394,7 +1394,7 @@ require_once "../elements/header.php";
     </div>
 </form>
 
-<?php require "../elements/footer.php" ?> 
+<?php require "./elements/footer.php" ?> 
 <script src="/js/transport.js"></script>
 <script src="/JS/equipements.js"></script>
 <script src="/JS/projet-futur.js"></script>
