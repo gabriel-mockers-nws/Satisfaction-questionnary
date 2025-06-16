@@ -1,6 +1,6 @@
 <strong> Projet de stage Manoir d'Argueil </strong>
 
-Ce projet vise à la digitalisétion de formulaires de satisfaction clients pour ODCVL.
+Ce projet vise à la digitalisation de formulaires de satisfaction clients pour ODCVL.
 
 il auras pour but de digitaliser les formulaires existant sur papier pour les avoir sur tablette. Je fait le choix d'utiliser aussi tailwind pour plus de rapidité et de simplicité. npm -i pour réinstaller après un gitclone. Prière de remote remove origine. 
 
