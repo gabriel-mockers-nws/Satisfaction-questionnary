@@ -23,9 +23,6 @@ $pdo = $pdoManager->getPDO();
     <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
         <a href="pages/colonies.php">Colonies</a>
     </button>
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="pages/admin.php">Reservé : admin</a>
-    </button>
 </nav>
 
 <?php require_once "./elements/footer.php" ?> 
