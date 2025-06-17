@@ -16,7 +16,7 @@
 </head>
 <body>
     <header class="relative">
-        <a href="../index.php">
+        <a href="index.php">
             <img src="../img/logo_odcvl_150.png" alt="logo-odcvl" class="absolute top-0 left-0 m-4 w-[20vw] h-auto sm:w-[15vw] md:w-[10vw] lg:w-[9vw]" />
         </a>
         <img src="../img/logos-MTS-2.png" alt="logo-maison-tous-séjours" class="absolute top-0 right-0 m-4 w-[20vw] h-auto sm:w-[15vw] md:w-[10vw] lg:w-[9vw]" />
