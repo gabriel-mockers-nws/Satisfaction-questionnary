@@ -12,16 +12,16 @@ $pdo = $pdoManager->getPDO();
 
 <nav class="flex flex-col items-center my-10 h-screen space-y-4">
     <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="classes-form.php">Classes</a>
+        <a href="/pages/classes-form.php">Classes</a>
     </button>
     <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="groupes-packages.php">Groupes packagés</a>
+        <a href="/pages/groupes-packages.php">Groupes packagés</a>
     </button>
     <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="groupe-sejour.php">Groupes Pension Complète</a>
+        <a href="/pages/groupe-sejour.php">Groupes Pension Complète</a>
     </button>
     <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="colonies.php">Colonies</a>
+        <a href="/pages/colonies.php">Colonies</a>
     </button>
 </nav>
 
