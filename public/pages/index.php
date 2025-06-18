@@ -11,18 +11,31 @@ $pdo = $pdoManager->getPDO();
 </div>
 
 <nav class="flex flex-col items-center my-10 h-screen space-y-4">
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="/pages/classes-form.php">Classes</a>
-    </button>
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="/pages/groupes-packages.php">Groupes packagés</a>
-    </button>
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="/pages/groupe-sejour.php">Groupes Pension Complète</a>
-    </button>
-    <button class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] ">
-        <a href="/pages/colonies.php">Colonies</a>
-    </button>
+    <a 
+        href="/pages/classes-form.php" 
+        class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] text-center"
+        >Classes
+    </a>
+
+    <a 
+        href="/pages/groupes-packages.php"
+        class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] text-center"
+        >Groupes packagés
+    </a>
+
+
+    <a 
+        href="/pages/groupe-sejour.php"
+        class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] text-center"
+        >Groupes Pension Complète
+    </a>
+
+
+    <a 
+        href="/pages/colonies.php" 
+        class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] text-center"
+        >Colonies
+    </a>
 </nav>
 
 <?php require_once __DIR__ . '/../elements/footer.php';  ?> 
