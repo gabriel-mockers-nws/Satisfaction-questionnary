@@ -14,7 +14,7 @@ $title = "Merci pour votre réponse";
          class= font-medium py-3 px-6 rounded-xl transition">
         Visiter notre site
       </a>
-      <a href="../index.php"
+      <a href="index.php"
          class="bg-gray-300 hover:bg-gray-400 text-gray-800 font-medium py-3 px-6 rounded-xl transition">
         Retour à l’accueil
       </a>
