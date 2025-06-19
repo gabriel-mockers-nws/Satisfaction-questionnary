@@ -173,7 +173,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Envoi du mail avec plusieurs pièces jointes
     sendMailWithMultipleCSVs($attachments);
 
-    header('Location: merci.php');
+    header('Location: /pages/merci.php');
     exit;
 
 };

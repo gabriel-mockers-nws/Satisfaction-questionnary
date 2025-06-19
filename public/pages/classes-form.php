@@ -4,7 +4,7 @@ require_once __DIR__ . '/../elements/header.php';
 ?> 
 
 <h1 class="text-5xl text-center mt-32">Classes découvertes</h1>
-<form method="post" action="../methodes/createDATA.php" id="classe-découverte" class="mx-8 my-12">
+<form method="post" action="/methodes/createDATA.php" id="classe-découverte" class="mx-8 my-12">
     <div class="text-center mb-8">
         <h2 class="text-3xl font-bold ">Informations générales</h2>
          <div class="mb-8">
@@ -12,7 +12,7 @@ require_once __DIR__ . '/../elements/header.php';
             <textarea
              name="nom_ecole"
              id="ecole"
-             placeholder=" Entrez votre avis ici"
+             placeholder=" Entrez nom école ici"
              cols="45"
              rows="2"
              class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
@@ -23,7 +23,7 @@ require_once __DIR__ . '/../elements/header.php';
             <textarea
              name="nom_ville"
              id="ville"
-             placeholder=" Entrez votre avis ici"
+             placeholder=" Entrez ville ici"
              cols="45"
              rows="2"
              class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
@@ -34,7 +34,7 @@ require_once __DIR__ . '/../elements/header.php';
             <textarea
              name="enseignants"
              id="nom-enseignants"
-             placeholder=" Entrez votre avis ici"
+             placeholder=" Entrez le(s) nom(s) du/des enseignant(e)s"
              cols="45"
              rows="2"
              class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "
@@ -60,14 +60,26 @@ require_once __DIR__ . '/../elements/header.php';
         </div>
         <div class="mb-8">
             <label for="centre" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Centre</label>
-            <textarea
-             name="Centre"
-             id="centre"
-             placeholder=" Entrez votre avis ici"
-             cols="45"
-             rows="2"
-             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "
-             require></textarea>
+            <select 
+            name="Centre" 
+            id="centre"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md text-center"
+            require>
+            <option value="">-- Selectionnez une option --</option>
+            <option value="Le Pavillon des Officiers - Mont-Dauphin">Le Pavillon des Officiers</option>
+            <option value="Les Coussoules - Leucate">Les Coussoules</option>
+            <option value="Le Steredenn - Douarnenez">Le Steredenn</option>
+            <option value="L'Estuaire - Le Verdon-sur-Mer">L'Estuaire</option>
+            <option value="La Jument Verte - Courlan">La Jument Verte</option>
+            <option value="La Fermeraie - Luttenbach-Près-Munster">La Fermeraie</option>
+            <option value="Le Manoir d'Argueil  - Argueil">Le Manoir d'Argueil</option>
+            <option value="La Maisondici - Les Voivres">La Maisondici</option>
+            <option value="Le Chalet d'Artimont - La Bresses">Le Chalet d'Artimont</option>
+            <option value="Le Haut du Tôt - Sapois">Le Haut du Tôt</option>
+            <option value="Le Pont du Metty - La Bresse">Le Pont du Metty</option>
+            <option value="Le Tremplin de la Mauselaine - Gérardmer">Le Tremplin de la Mauselaine</option>
+            <option value="Centre Partenaires">Centre Partenaires</option>
+            </select>
         </div> 
 
         <div class="mb-8 flex justify-center flex-wrap">
