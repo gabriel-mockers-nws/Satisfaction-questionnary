@@ -4,7 +4,7 @@ require_once __DIR__ . '/../elements/header.php';
 ?> 
 
 <h1 class="text-5xl text-center mt-32">Classes découvertes</h1>
-<form method="post" action="/methodes/createDATA.php" id="classe-découverte" class="mx-8 my-12">
+<form method="post" action="/process.php" id="classe-découverte" class="mx-8 my-12">
     <div class="text-center mb-8">
         <h2 class="text-3xl font-bold ">Informations générales</h2>
          <div class="mb-8">
