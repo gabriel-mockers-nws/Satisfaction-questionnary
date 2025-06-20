@@ -147,18 +147,16 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
     $lastInsertId = $pdo->lastInsertId();
 
     
-    require_once 'export_csv.php';
-    require_once 'send_mail.php';
+    require_once __DIR__ . '/export_csv.php';
+    require_once __DIR__ . '/send_mail.php';
 
     $formType = 'classe';
     $today = date('Y-m-d');
     $villeNomNettoye = preg_replace('/[^a-zA-Z0-9_\-]/', '_', $donnee90);
 
-    // Création des deux contenus
     $csvContentSingle = exportCSVContent($pdo, $formType, (int)$lastInsertId);
     $csvContentAll = exportCSVContent($pdo, $formType, null);
 
-    // Préparation des fichiers à envoyer
     $attachments = [
         [
             'filename' => "{$formType}_{$villeNomNettoye}_{$today}_id{$lastInsertId}.csv",
@@ -170,9 +168,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST') {
         ]
     ];
 
-    // Envoi du mail avec plusieurs pièces jointes
     sendMailWithMultipleCSVs($attachments);
-
     header('Location: /pages/merci.php');
     exit;
 
