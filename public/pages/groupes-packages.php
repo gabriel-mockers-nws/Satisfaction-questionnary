@@ -163,32 +163,32 @@ require_once __DIR__ . '/../elements/header.php';
         </div>
 
         <div class="mb-8">
-            <label for="centre" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Le centre</label>
+            <label for="centre-info" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Sur le centre</label>
             <div class="flex justify-center gap-4 my-4">
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="centre" value="1" class="radio-button">
+                    <input type="radio" name="centre-info" value="1" class="radio-button">
                     <span>1</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="centre" value="2" class="radio-button">
+                    <input type="radio" name="centre-info" value="2" class="radio-button">
                     <span>2</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="centre" value="3" class="radio-button">
+                    <input type="radio" name="centre-info" value="3" class="radio-button">
                     <span>3</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="centre" value="4" class="radio-button">
+                    <input type="radio" name="centre-info" value="4" class="radio-button">
                     <span>4</span>
                 </label>
                 <label class="inline-flex items-center space-x-2 text-xl">
-                    <input type="radio" name="centre" value="5" class="radio-button">
+                    <input type="radio" name="centre-info" value="5" class="radio-button">
                     <span>5</span>
                 </label>
             </div>
             <textarea
-            name="centre-text"
-            id="centre"
+            name="centre-info-text"
+            id="centre-info"
             placeholder=" Entrez votre avis ici"
             cols="45"
             rows="2"
@@ -1141,7 +1141,7 @@ require_once __DIR__ . '/../elements/header.php';
                 Avez-vous une idée de date ?
             </label>
             <textarea
-            name="Remarque-41"
+            name="date-text"
             id="date"
             placeholder="Entrez votre avis ici"
             cols="45"
