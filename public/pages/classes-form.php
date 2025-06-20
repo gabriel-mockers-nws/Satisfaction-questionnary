@@ -208,7 +208,7 @@ require_once __DIR__ . '/../elements/header.php';
     </div>
 
     <div class="mx-8 my-12 justify-items-center text-center">
-        <h2 class="text-3xl font-bold  text-center">Notre maison tous séjour</h2>
+        <h2 class="text-3xl font-bold  text-center">Notre maison tous séjours</h2>
         <div class="mb-8">
             <label for="premier-ressenti" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5"">Quel fut votre premier ressenti  lors de votre <br> arrivée dans notre maison tous séjours ?</label>
             <textarea
