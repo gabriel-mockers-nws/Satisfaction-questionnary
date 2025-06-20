@@ -6,7 +6,7 @@ use Dotenv\Dotenv;  // On utilise Dotenv pour charger les variables d'environnem
 require_once __DIR__ . '/../vendor/autoload.php'; // Charge PHPMailer
 
 // Charge les variables d'environnement à partir du fichier .env
-$dotenv = Dotenv::createImmutable(__DIR__ . '/../', 'log.env');  // Charge .env depuis la racine du projet (modifie le chemin si nécessaire)
+$dotenv = Dotenv::createImmutable(__DIR__ . '/../');  // Charge .env depuis la racine du projet (modifie le chemin si nécessaire)
 $dotenv->load();  // Charge les variables dans le code
 
 function sendMailWithMultipleCSVs(array $attachments): bool {
@@ -21,6 +21,13 @@ function sendMailWithMultipleCSVs(array $attachments): bool {
         $mail->Password   = $_ENV['MAIL_PASSWORD'];
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = $_ENV['MAIL_PORT'];
+        $mail->SMTPOptions = array(
+            'ssl' => array(
+                'verify_peer' => false,
+                'verify_peer_name' => false,
+                'allow_self_signed' => true
+            )
+        );
 
         $mail->setFrom($_ENV['MAIL_FROM_ADDRESS'], $_ENV['MAIL_FROM_NAME']);
         $mail->addAddress($_ENV['MAIL_TO'], 'Destinataire');
@@ -32,7 +39,7 @@ function sendMailWithMultipleCSVs(array $attachments): bool {
         // On boucle sur chaque pièce jointe
         foreach ($attachments as $file) {
             if (!empty($file['content']) && !empty($file['filename'])) {
-                $mail->addStringAttachment($file['content'], $file['filename'], 'base64', 'text/csv');
+                $mail->addStringAttachment($file['content'], $file['filename'], 'binary', 'text/csv');
             }
         }
 
@@ -44,5 +51,3 @@ function sendMailWithMultipleCSVs(array $attachments): bool {
         return false;
     }
 }
-
-
