@@ -7,38 +7,38 @@ require_once __DIR__ . '/../elements/header.php';
 <form method="post" action="/process.php" id="classe-découverte" class="mx-8 my-12">
     <div class="text-center mb-8">
         <h2 class="text-3xl font-bold ">Informations générales</h2>
-         <div class="mb-8">
+        <div class="mb-8">
             <label for="ecole" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Nom de l'école</label>
             <textarea
-             name="nom_ecole"
-             id="ecole"
-             placeholder=" Entrez nom école ici"
-             cols="45"
-             rows="2"
-             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
-             required></textarea>
+            name="nom_ecole"
+            id="ecole"
+            placeholder=" Entrez nom école ici"
+            cols="45"
+            rows="2"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
+            required></textarea>
         </div>
         <div class="mb-8">
             <label for="ville" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Nom de la Ville</label>
             <textarea
-             name="nom_ville"
-             id="ville"
-             placeholder=" Entrez ville ici"
-             cols="45"
-             rows="2"
-             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
-             required></textarea>
+            name="nom_ville"
+            id="ville"
+            placeholder=" Entrez ville ici"
+            cols="45"
+            rows="2"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
+            required></textarea>
         </div>
         <div class="mb-8">
             <label for="nom-enseignants" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Nom du/des enseignant.e.s.es</label>
             <textarea
-             name="enseignants"
-             id="nom-enseignants"
-             placeholder=" Entrez le(s) nom(s) du/des enseignant(e)s"
-             cols="45"
-             rows="2"
-             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "
-             required></textarea>
+            name="enseignants"
+            id="nom-enseignants"
+            placeholder=" Entrez le(s) nom(s) du/des enseignant(e)s"
+            cols="45"
+            rows="2"
+            class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "
+            required></textarea>
         </div>
         <div class="mb-8">
             <label for="dates" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Dates du séjour</label>
@@ -78,7 +78,7 @@ require_once __DIR__ . '/../elements/header.php';
             <option value="Le Haut du Tôt - Sapois">Le Haut du Tôt</option>
             <option value="Le Pont du Metty - La Bresse">Le Pont du Metty</option>
             <option value="Le Tremplin de la Mauselaine - Gérardmer">Le Tremplin de la Mauselaine</option>
-            <option value="Centre Partenaires">Centre Partenaires</option>
+            <option value="Centre Partenaires">Centres Partenaires</option>
             </select>
         </div> 
 
@@ -86,25 +86,25 @@ require_once __DIR__ . '/../elements/header.php';
             <div class="flex flex-col items-center mr-4">
                 <label for="niveau" class="text-base text-center mb-1.5">Niveau de(s) classe(s)</label>
                 <textarea
-                 name="Niveau"
-                 id="niveau"
-                 placeholder=" Entrez le niveau ici"
-                 cols="25"
-                 rows="2"
-                 class="mt-2 rounded-lg border-2 border-[#bf198c] shadow-md shadow-[#C73F67]"
-                 required></textarea>
+                name="Niveau"
+                id="niveau"
+                placeholder=" Entrez le niveau ici"
+                cols="25"
+                rows="2"
+                class="mt-2 rounded-lg border-2 border-[#bf198c] shadow-md shadow-[#C73F67]"
+                required></textarea>
             </div>
 
             <div class="flex flex-col items-center ml-4">
                 <label for="eff" class="text-base text-center mb-1.5">Effectif</label>
                 <textarea
-                 name="Effectif"
-                 id="eff"
-                 placeholder=" Entrez l'effectif ici"
-                 cols="25"
-                 rows="2"
-                 class="mt-2 rounded-lg border-2 border-[#bf198c] shadow-md shadow-[#C73F67]"
-                 required></textarea>
+                name="Effectif"
+                id="eff"
+                placeholder=" Entrez l'effectif ici"
+                cols="25"
+                rows="2"
+                class="mt-2 rounded-lg border-2 border-[#bf198c] shadow-md shadow-[#C73F67]"
+                required></textarea>
             </div>
         </div>
 
