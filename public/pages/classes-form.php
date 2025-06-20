@@ -16,7 +16,7 @@ require_once __DIR__ . '/../elements/header.php';
              cols="45"
              rows="2"
              class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
-             require></textarea>
+             required></textarea>
         </div>
         <div class="mb-8">
             <label for="ville" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Nom de la Ville</label>
@@ -27,7 +27,7 @@ require_once __DIR__ . '/../elements/header.php';
              cols="45"
              rows="2"
              class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md " 
-             require></textarea>
+             required></textarea>
         </div>
         <div class="mb-8">
             <label for="nom-enseignants" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Nom du/des enseignant.e.s.es</label>
@@ -38,7 +38,7 @@ require_once __DIR__ . '/../elements/header.php';
              cols="45"
              rows="2"
              class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md "
-             require></textarea>
+             required></textarea>
         </div>
         <div class="mb-8">
             <label for="dates" class="block text-base text-center mx-auto w-full leading-relaxed mt-4 mb-1.5">Dates du séjour</label>
@@ -64,7 +64,7 @@ require_once __DIR__ . '/../elements/header.php';
             name="Centre" 
             id="centre"
             class="rounded-lg border-solid border-[#bf198c] border-2 shadow-[#C73F67] shadow-md text-center"
-            require>
+            required>
             <option value="">-- Selectionnez une option --</option>
             <option value="Le Pavillon des Officiers - Mont-Dauphin">Le Pavillon des Officiers</option>
             <option value="Les Coussoules - Leucate">Les Coussoules</option>
@@ -92,7 +92,7 @@ require_once __DIR__ . '/../elements/header.php';
                  cols="25"
                  rows="2"
                  class="mt-2 rounded-lg border-2 border-[#bf198c] shadow-md shadow-[#C73F67]"
-                 require></textarea>
+                 required></textarea>
             </div>
 
             <div class="flex flex-col items-center ml-4">
@@ -104,7 +104,7 @@ require_once __DIR__ . '/../elements/header.php';
                  cols="25"
                  rows="2"
                  class="mt-2 rounded-lg border-2 border-[#bf198c] shadow-md shadow-[#C73F67]"
-                 require></textarea>
+                 required></textarea>
             </div>
         </div>
 
