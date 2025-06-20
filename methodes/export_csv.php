@@ -45,6 +45,7 @@ function exportCSVContent($pdo, string $table, ?int $id = null): string {
     $csv = fopen('php://temp', 'r+');
     fputs($csv, "\xEF\xBB\xBF");
     $first = true;
+    // On ajoute la date d'export
     foreach ($data as $row) {
         date_default_timezone_set('Europe/Paris');
         $row['date_export'] = date('d/m/Y - H\hi');
