@@ -18,21 +18,21 @@ $pdo = $pdoManager->getPDO();
     </a>
 
     <a 
-        href="/pages/classes-form.php"
+        href="/pages/groupes-packages.php"
         class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] text-center"
         >Groupes packagés
     </a>
 
 
     <a 
-        href="/pages/classes-form.php"
+        href="/pages/groupes-complète.php"
         class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] text-center"
         >Groupes Pension Complète
     </a>
 
 
     <a 
-        href="/pages/classes-form.php" 
+        href="/pages/colonies.php" 
         class="shadow-md w-64 py-4 rounded-lg bg-[#bf198c] text-white hover:bg-[#C73F67] text-center"
         >Colonies
     </a>
